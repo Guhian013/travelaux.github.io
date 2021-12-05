@@ -54,6 +54,10 @@
     background-color: rgb(204, 204, 204);
 }
 
+.gg-map {
+    border-radius: 5px;
+}
+
 .place {
     display: block;
     background-color: rgb(199, 240, 240);

@@ -2,6 +2,11 @@ const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const endButton = document.getElementById('end-btn')
 const previousButton = document.getElementById('previous-btn')
+
+const bigbutton1 = document.getElementById('btn-extd1')
+const bigbutton2 = document.getElementById('btn-extd2')
+const bigbutton3 = document.getElementById('btn-extd3')
+
 const questionContainerElement = document.getElementById('option-container')
 const questionElement = document.getElementById('question')
 const optionsButtonsElement = document.getElementById('option-btns')
@@ -24,9 +29,16 @@ const place2 = document.getElementsByClassName('place')
 const place3 = document.getElementsByClassName('place')
 const place4 = document.getElementsByClassName('place')
 
+
+const map1 = document.getElementById('gg-map1')
+const map2 = document.getElementById('gg-map2')
+const map3 = document.getElementById('gg-map3')
+
 var total = parseInt(total)
 var clima
 var fclima
+var fregiao
+var ftransporte
 var pt
 var bool = true
 total = 0
@@ -123,14 +135,12 @@ function selectOption(e) {
         startButton.classList.remove('hide')
         endButton.classList.remove('hide')
         endButton.addEventListener('click',() => {
+            verifyBlocks()
             container.classList.add('hide')
             places.classList.remove('hide')
             place_1.classList.remove('hide')
             place_2.classList.remove('hide')
             place_3.classList.remove('hide')
-            place1txt.innerText = "Teste 1"
-            place2txt.innerText = "Teste 2"
-            place3txt.innerText = "Teste 3"
         })
     }
 }
@@ -141,13 +151,24 @@ function setClima(value) {
 }
 
 function setRegiao(value) {
-    var fregiao = value
+    fregiao = value
     console.log("Região: " + fregiao)
 }
 
 function setTransporte(value) {
-    var ftransporte = value
+    ftransporte = value
     console.log("Transporte: " + ftransporte)
+}
+
+function verifyBlocks() {
+    if(fclima == 1 && fregiao == 5 && ftransporte == 11) {
+        bigbutton1.addEventListener('click', () => {
+            console.log('lalal')
+            place_1.style.paddingBottom = '5cm'
+        })
+        place2txt.innerText = "Bahia"
+
+    }
 }
 
 function setNextPicture() {
