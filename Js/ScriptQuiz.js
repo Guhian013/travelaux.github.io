@@ -3,9 +3,16 @@ const nextButton = document.getElementById('next-btn')
 const endButton = document.getElementById('end-btn')
 const previousButton = document.getElementById('previous-btn')
 
-const bigbutton1 = document.getElementById('btn-extd1')
-const bigbutton2 = document.getElementById('btn-extd2')
-const bigbutton3 = document.getElementById('btn-extd3')
+const bigbutton1f = document.getElementById('btn-extd1f')
+const bigbutton1v = document.getElementById('btn-extd1v')
+
+const bigbutton2f = document.getElementById('btn-extd2f')
+const bigbutton2v = document.getElementById('btn-extd2v')
+
+const bigbutton3f = document.getElementById('btn-extd3f')
+const bigbutton3v = document.getElementById('btn-extd3v')
+
+const option5 = document.getElementById('op-5')
 
 const questionContainerElement = document.getElementById('option-container')
 const questionElement = document.getElementById('question')
@@ -16,10 +23,16 @@ const place1txt = document.getElementById('place1-txt')
 const place2txt = document.getElementById('place2-txt')
 const place3txt = document.getElementById('place3-txt')
 
+const statetxt1 = document.getElementById('state-txt1')
+const statetxt2 = document.getElementById('state-txt2')
+const statetxt3 = document.getElementById('state-txt3')
+
 const places = document.getElementById('places')
+
 const place_1 = document.getElementById('place-1')
 const place_2 = document.getElementById('place-2')
 const place_3 = document.getElementById('place-3')
+
 const container = document.getElementById('container')
 
 container.classList.remove('hide')
@@ -62,6 +75,7 @@ nextButton.addEventListener('click', () => {
     setNextOption()
     setNextPicture()
     bool = true
+    console.log(currentQuestionIndex)
 })
 
 function resetTotal() {
@@ -73,7 +87,6 @@ function pageScroll() {
 }
 
 function startQuiz() {
-    image.src="https://www.sketchappsources.com/resources/source-image/climate-icons-hosseinian.png"
     endButton.classList.add('hide')
     startButton.classList.add('hide')
     Questions = options
@@ -84,6 +97,10 @@ function startQuiz() {
 
 function setNextOption() {
     resetState()
+    if(Questions[currentQuestionIndex] == 0) {
+        option5.classList.remove('hide')
+
+    }
     showQuestion(Questions[currentQuestionIndex])
 }
 
@@ -141,6 +158,9 @@ function selectOption(e) {
             place_1.classList.remove('hide')
             place_2.classList.remove('hide')
             place_3.classList.remove('hide')
+            statetxt1.classList.remove('hide')
+            statetxt2.classList.remove('hide')
+            statetxt3.classList.remove('hide')
         })
     }
 }
@@ -160,26 +180,116 @@ function setTransporte(value) {
     console.log("Transporte: " + ftransporte)
 }
 
+function bigbutton1fv() {
+    bigbutton1f.addEventListener('click', () => {
+        console.log('bg1foi')
+        place_1.style.paddingBottom = '5cm'
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083987.4528746754!2d-54.620577521026256!3d1.596783970843328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1638791542883!5m2!1spt-BR!2sbr"
+        map1.classList.remove('hide')
+        statetxt1.classList.add('hide')
+        place_1.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton1v.classList.remove('hide')
+        bigbutton1f.classList.add('hide')
+    })
+
+    bigbutton1v.addEventListener('click', () => {
+        map1.classList.add('hide')
+        console.log('bg1vorto')
+        statetxt1.classList.remove('hide')
+        place_1.style.paddingBottom = '2.5cm'
+        place_1.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton1v.classList.add('hide')
+        bigbutton1f.classList.remove('hide')
+    })
+}
+
+function bigbutton2fv() {
+    bigbutton2f.addEventListener('click', () => {
+        console.log('bg2foi')
+        place_2.style.paddingBottom = '5cm'
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8166884.830406468!2d-66.37240152938632!3d1.8508755174469462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d930671dfccf45b%3A0x695f00f29e9c7a14!2sRoraima!5e0!3m2!1spt-BR!2sbr!4v1638793747726!5m2!1spt-BR!2sbr"
+        map2.classList.remove('hide')
+        statetxt2.classList.add('hide')
+        place_2.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton2v.classList.remove('hide')
+        bigbutton2f.classList.add('hide')
+    })
+
+    bigbutton2v.addEventListener('click', () => {
+        map2.classList.add('hide')
+        console.log('bg2vorto')
+        statetxt2.classList.remove('hide')
+        place_2.style.paddingBottom = '2.5cm'
+        place_2.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton2v.classList.add('hide')
+        bigbutton2f.classList.remove('hide')
+    })
+}
+
+function bigbutton3fv() {
+    bigbutton3f.addEventListener('click', () => {
+        console.log('bg3foi')
+        place_3.style.paddingBottom = '5cm'
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8064226.727237437!2d-52.732246131568964!3d-9.279032617095593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9323501f52b13997%3A0xe3d4866245cc396c!2sTocantins!5e0!3m2!1spt-BR!2sbr!4v1638795652289!5m2!1spt-BR!2sbr"
+        map3.classList.remove('hide')
+        statetxt3.classList.add('hide')
+        place_3.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton3v.classList.add('hide')
+        bigbutton3f.classList.remove('hide')
+    })
+
+    bigbutton3v.addEventListener('click', () => {
+        map2.classList.add('hide')
+        console.log('bg3vorto')
+        statetxt3.classList.remove('hide')
+        place_3.style.paddingBottom = '2.5cm'
+        place_3.scrollIntoView({behavior: "smooth", block: "center"})
+        bigbutton3v.classList.add('hide')
+        bigbutton3f.classList.remove('hide')
+    })
+}
+
 function verifyBlocks() {
-    if(fclima == 1 && fregiao == 5 && ftransporte == 11) {
-        bigbutton1.addEventListener('click', () => {
-            console.log('lalal')
-            place_1.style.paddingBottom = '5cm'
-        })
-        place2txt.innerText = "Bahia"
+    if(fclima == 1 && fregiao == 5) {
+        place1txt.innerText = "Amapá"
+        statetxt1.innerText = "pupipi"
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Roraima"
+        statetxt2.innerText = "lalulu"
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Tocantins"
+        statetxt3.innerText = "ticotico"
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
 
     }
 }
 
 function setNextPicture() {
-    if(currentQuestionIndex == 1) {
+    if(currentQuestionIndex == 0) {
         image.src="https://o.quizlet.com/R83wCCnwxgQylxWG3-vYrg_b.png"
+    } else if(currentQuestionIndex == 1) {
+        image.src="https://www.sketchappsources.com/resources/source-image/climate-icons-hosseinian.png"
     } else if(currentQuestionIndex == 2) {
         image.src="https://st8.cannypic.com/thumbs/40/408827_632_canny_pic.jpg"
     }
 }
 
 const options = [
+    {
+        question: "Qual região do Brasil você prefere?",
+        options: [
+            {text: 'Norte', value: 5},
+            {text: 'Nordeste', value: 6},
+            {text: 'Centro-Oeste', value: 7},
+            {text: 'Sudeste', value: 8},
+            {text: 'Sul', value: 9}
+        ]
+    },
     {
         question: "Qual tipo de clima você prefere?",
         options: [
@@ -190,21 +300,12 @@ const options = [
         ]
     },
     {
-        question: "Qual região do Brasil você prefere?",
-        options: [
-            {text: 'Norte', value: 5},
-            {text: 'Sul', value: 6},
-            {text: 'Leste', value: 7},
-            {text: 'Oeste', value: 8}
-        ]
-    },
-    {
         question: "Que tipo de transporte você prefere?",
         options: [
-            {text: 'Ônibus', value: 9},
-            {text: 'Carro', value: 10},
-            {text: 'Avião', value: 11},
-            {text: 'Barco', value: 12}
+            {text: 'Ônibus', value: 10},
+            {text: 'Carro', value: 11},
+            {text: 'Avião', value: 12},
+            {text: 'Barco', value: 13}
         ]
     }
 ]

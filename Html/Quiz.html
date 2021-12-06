@@ -34,31 +34,38 @@
     <p class="sub-text">Responda o Quiz para descobrir seu próximo destino!!</p>
 
     <div id="places" class="places hide">
-        <div id="place-1" class="place hide">
-            <button id="btn-extd1" class="extend-btn"><img src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+        <div id="place-1" class="place hide" loading="lazy">
+            <button id="btn-extd1f" class="extend-btn hide"><img id="img-extd1f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+            <button id="btn-extd1v" class="extend-btn hide"><img id="img-extd1v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place1-txt" class="place-txt">Espírito Santo</h3>
-            <iframe id="gg-map1" class="gg-map hide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7701014.136922567!2d-39.873300689731224!3d-19.53041333665115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7069579646359%3A0x4e1bd5243c50f799!2sEsp%C3%ADrito%20Santo!5e0!3m2!1spt-BR!2sbr!4v1636367622677!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p id="state-txt1" class="hide" style="font-size: 80%;">tsc</p>
+            <iframe id="gg-map1" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div id="place-2" class="place hide">
-            <button id="btn-extd2" class="extend-btn"><img src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+        <div id="place-2" class="place hide" loading="lazy">
+            <button id="btn-extd2f" class="extend-btn hide"><img id="img-extd2f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+            <button id="btn-extd2v" class="extend-btn hide"><img id="img-extd2v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place2-txt" class="place-txt">Goiás</h3>
-            <iframe id="gg-map2" class="gg-map hide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7701014.136922567!2d-39.873300689731224!3d-19.53041333665115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7069579646359%3A0x4e1bd5243c50f799!2sEsp%C3%ADrito%20Santo!5e0!3m2!1spt-BR!2sbr!4v1636367622677!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p id="state-txt2" class="hide" style="font-size: 80%;">kablau!</p>
+            <iframe id="gg-map2" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div id="place-3" class="place hide">
-            <button id="btn-extd3" class="extend-btn"><img src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+        <div id="place-3" class="place hide" loading="lazy">
+            <button id="btn-extd3f" class="extend-btn hide"><img id="img-extd3f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
+            <button id="btn-extd3v" class="extend-btn hide"><img id="img-extd3v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place3-txt" class="place-txt">Maranhão</h3>
-            <iframe id="gg-map3" class="gg-map hide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7701014.136922567!2d-39.873300689731224!3d-19.53041333665115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7069579646359%3A0x4e1bd5243c50f799!2sEsp%C3%ADrito%20Santo!5e0!3m2!1spt-BR!2sbr!4v1636367622677!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p id="state-txt3" class="hide" style="font-size: 80%;">puft?</p>
+            <iframe id="gg-map3" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
     <div id="container" class="container hide">
         <div id="option-container" class="hide">
-            <img src="https://www.sketchappsources.com/resources/source-image/climate-icons-hosseinian.png" id="question-title">
+            <img src="https://o.quizlet.com/R83wCCnwxgQylxWG3-vYrg_b.png" id="question-title">
             <div id="question">Question</div>
             <div id="option-btns" class="btn-grid">
-                <button class="btn">Option 1</button>
-                <button class="btn">Option 2</button>
-                <button class="btn">Option 3</button>
-                <button class="btn">Option 4</button>
+                <button id="op-1" class="btn">Option 1</button>
+                <button id="op-2" class="btn">Option 2</button>
+                <button id="op-3" class="btn">Option 3</button>
+                <button id="op-4" class="btn">Option 4</button>
+                <button id="op-5" class="btn hide">Option 5</button>
             </div>
         </div>
         <div class="controls">
