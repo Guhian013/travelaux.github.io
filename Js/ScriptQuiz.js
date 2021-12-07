@@ -12,6 +12,63 @@ const bigbutton2v = document.getElementById('btn-extd2v')
 const bigbutton3f = document.getElementById('btn-extd3f')
 const bigbutton3v = document.getElementById('btn-extd3v')
 
+const food_list1 = document.getElementById('list-food1')
+const food_list2 = document.getElementById('list-food2')
+const food_list3 = document.getElementById('list-food3')
+
+const food_name1_1 = document.getElementById('food-text1-1')
+const food_name1_2 = document.getElementById('food-text1-2')
+const food_name1_3 = document.getElementById('food-text1-3')
+const food_name1_4 = document.getElementById('food-text1-4')
+
+const food_name2_1 = document.getElementById('food-text2-1')
+const food_name2_2 = document.getElementById('food-text2-2')
+const food_name2_3 = document.getElementById('food-text2-3')
+const food_name2_4 = document.getElementById('food-text2-4')
+
+const food_name3_1 = document.getElementById('food-text3-1')
+const food_name3_2 = document.getElementById('food-text3-2')
+const food_name3_3 = document.getElementById('food-text3-3')
+const food_name3_4 = document.getElementById('food-text3-4')
+
+const food_desc1_1 = document.getElementById('food-desc1-1')
+const food_desc1_2 = document.getElementById('food-desc1-2')
+const food_desc1_3 = document.getElementById('food-desc1-3')
+const food_desc1_4 = document.getElementById('food-desc1-4')
+
+const food_desc2_1 = document.getElementById('food-desc2-1')
+const food_desc2_2 = document.getElementById('food-desc2-2')
+const food_desc2_3 = document.getElementById('food-desc2-3')
+const food_desc2_4 = document.getElementById('food-desc2-4')
+
+const food_desc3_1 = document.getElementById('food-desc3-1')
+const food_desc3_2 = document.getElementById('food-desc3-2')
+const food_desc3_3 = document.getElementById('food-desc3-3')
+const food_desc3_4 = document.getElementById('food-desc3-4')
+
+const food_img1_1 = document.getElementById('food-img1-1')
+const food_img1_2 = document.getElementById('food-img1-2')
+const food_img1_3 = document.getElementById('food-img1-3')
+const food_img1_4 = document.getElementById('food-img1-4')
+
+const food_img2_1 = document.getElementById('food-img2-1')
+const food_img2_2 = document.getElementById('food-img2-2')
+const food_img2_3 = document.getElementById('food-img2-3')
+const food_img2_4 = document.getElementById('food-img2-4')
+
+const food_img3_1 = document.getElementById('food-img3-1')
+const food_img3_2 = document.getElementById('food-img3-2')
+const food_img3_3 = document.getElementById('food-img3-3')
+const food_img3_4 = document.getElementById('food-img3-4')
+
+const food_title1 = document.getElementById('fd-txt1')
+const food_title2 = document.getElementById('fd-txt2')
+const food_title3 = document.getElementById('fd-txt3')
+
+const map_title1 = document.getElementById('mp-txt1')
+const map_title2 = document.getElementById('mp-txt2')
+const map_title3 = document.getElementById('mp-txt3')
+
 const option5 = document.getElementById('op-5')
 
 const questionContainerElement = document.getElementById('option-container')
@@ -186,7 +243,9 @@ function bigbutton1fv() {
         place_1.style.paddingBottom = '5cm'
         map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083987.4528746754!2d-54.620577521026256!3d1.596783970843328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1638791542883!5m2!1spt-BR!2sbr"
         map1.classList.remove('hide')
-        statetxt1.classList.add('hide')
+        food_title1.classList.remove('hide')
+        map_title1.classList.remove('hide')
+        food_list1.classList.remove('hide')
         place_1.scrollIntoView({behavior: "smooth", block: "center"})
         bigbutton1v.classList.remove('hide')
         bigbutton1f.classList.add('hide')
@@ -195,7 +254,9 @@ function bigbutton1fv() {
     bigbutton1v.addEventListener('click', () => {
         map1.classList.add('hide')
         console.log('bg1vorto')
-        statetxt1.classList.remove('hide')
+        food_title1.classList.add('hide')
+        map_title1.classList.add('hide')
+        food_list1.classList.add('hide')
         place_1.style.paddingBottom = '2.5cm'
         place_1.scrollIntoView({behavior: "smooth", block: "center"})
         bigbutton1v.classList.add('hide')
@@ -209,7 +270,9 @@ function bigbutton2fv() {
         place_2.style.paddingBottom = '5cm'
         map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8166884.830406468!2d-66.37240152938632!3d1.8508755174469462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d930671dfccf45b%3A0x695f00f29e9c7a14!2sRoraima!5e0!3m2!1spt-BR!2sbr!4v1638793747726!5m2!1spt-BR!2sbr"
         map2.classList.remove('hide')
-        statetxt2.classList.add('hide')
+        food_title2.classList.remove('hide')
+        map_title2.classList.remove('hide')
+        food_list2.classList.remove('hide')
         place_2.scrollIntoView({behavior: "smooth", block: "center"})
         bigbutton2v.classList.remove('hide')
         bigbutton2f.classList.add('hide')
@@ -218,7 +281,9 @@ function bigbutton2fv() {
     bigbutton2v.addEventListener('click', () => {
         map2.classList.add('hide')
         console.log('bg2vorto')
-        statetxt2.classList.remove('hide')
+        food_title2.classList.add('hide')
+        map_title2.classList.add('hide')
+        food_list2.classList.add('hide')
         place_2.style.paddingBottom = '2.5cm'
         place_2.scrollIntoView({behavior: "smooth", block: "center"})
         bigbutton2v.classList.add('hide')
@@ -232,16 +297,20 @@ function bigbutton3fv() {
         place_3.style.paddingBottom = '5cm'
         map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8064226.727237437!2d-52.732246131568964!3d-9.279032617095593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9323501f52b13997%3A0xe3d4866245cc396c!2sTocantins!5e0!3m2!1spt-BR!2sbr!4v1638795652289!5m2!1spt-BR!2sbr"
         map3.classList.remove('hide')
-        statetxt3.classList.add('hide')
+        food_title3.classList.remove('hide')
+        map_title3.classList.remove('hide')
+        food_list3.classList.remove('hide')
         place_3.scrollIntoView({behavior: "smooth", block: "center"})
-        bigbutton3v.classList.add('hide')
-        bigbutton3f.classList.remove('hide')
+        bigbutton3v.classList.remove('hide')
+        bigbutton3f.classList.add('hide')
     })
 
     bigbutton3v.addEventListener('click', () => {
-        map2.classList.add('hide')
+        map3.classList.add('hide')
         console.log('bg3vorto')
-        statetxt3.classList.remove('hide')
+        food_title3.classList.add('hide')
+        map_title3.classList.add('hide')
+        food_list3.classList.add('hide')
         place_3.style.paddingBottom = '2.5cm'
         place_3.scrollIntoView({behavior: "smooth", block: "center"})
         bigbutton3v.classList.add('hide')
@@ -253,19 +322,70 @@ function verifyBlocks() {
     if(fclima == 1 && fregiao == 5) {
         place1txt.innerText = "Amapá"
         statetxt1.innerText = "pupipi"
+
+        food_name1_1.innerText = "1.1"
+        food_img1_1.src = "../Images/modelo.jpg"
+        food_desc1_1.innerText = "dassssssssssssssssst"
+
+        food_name1_2.innerText = "1.2"
+        food_img1_2.src = "../Images/modelo.jpg"
+        food_desc1_2.innerText = "dddffffffffffffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddffffffffff"
+
+        food_name1_3.innerText = "1.3"
+        food_img1_3.src = "../Images/modelo.jpg"
+        food_desc1_3.innerText = "ddddddddddddddddddddddd"
+
+        food_name1_4.innerText = "1.4"
+        food_img1_4.src = "../Images/modelo.jpg"
+        food_desc1_4.innerText = "dggggggggggggggd"
+
+
         bigbutton1f.classList.remove('hide')
         bigbutton1fv()
 
         place2txt.innerText = "Roraima"
         statetxt2.innerText = "lalulu"
+
+        food_name2_1.innerText = "2.1"
+        food_img2_1.src = "../Images/modelo.jpg"
+        food_desc2_1.innerText = "2.1"
+
+        food_name2_2.innerText = "2.2"
+        food_img2_2.src = "../Images/modelo.jpg"
+        food_desc2_2.innerText = "2.2"
+
+        food_name2_3.innerText = "2.3"
+        food_img2_3.src = "../Images/modelo.jpg"
+        food_desc2_3.innerText = "2.3"
+
+        food_name2_4.innerText = "2.4"
+        food_img2_4.src = "../Images/modelo.jpg"
+        food_desc2_4.innerText = "2.4"
+
         bigbutton2f.classList.remove('hide')
         bigbutton2fv()
 
         place3txt.innerText = "Tocantins"
         statetxt3.innerText = "ticotico"
+
+        food_name3_1.innerText = "3.1"
+        food_img3_1.src = "../Images/modelo.jpg"
+        food_desc3_1.innerText = "3.1"
+
+        food_name3_2.innerText = "3.2"
+        food_img3_2.src = "../Images/modelo.jpg"
+        food_desc3_2.innerText = "3.2"
+
+        food_name3_3.innerText = "3.3"
+        food_img3_3.src = "../Images/modelo.jpg"
+        food_desc3_3.innerText = "3.3"
+
+        food_name3_4.innerText = "3.4"
+        food_img3_4.src = "../Images/modelo.jpg"
+        food_desc3_4.innerText = "3.4"
+
         bigbutton3f.classList.remove('hide')
         bigbutton3fv()
-
     }
 }
 
