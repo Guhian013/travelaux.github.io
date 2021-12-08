@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="shortcut icon" href="../Favicons/Graphicloads-Transport-Airplane-2.ico" type="image/x-icon">
@@ -31,39 +32,46 @@
     <h1 class="sub-title">Quiz</h1>
     <hr>
 
-    <p class="sub-text">Responda o Quiz para descobrir seu próximo destino!!</p>
+    <p id="sub-texte" class="sub-text">Responda o Quiz para descobrir seu próximo destino!!</p>
 
     <div id="places" class="places hide">
         <div id="place-1" class="place hide" loading="lazy">
             <button id="btn-extd1f" class="extend-btn hide"><img id="img-extd1f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
             <button id="btn-extd1v" class="extend-btn hide"><img id="img-extd1v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place1-txt" class="place-txt">SO</h3>
-            <p id="state-txt1" class="hide" style="font-size: 80%;">tsc!</p>
+            <img id="img-state1" class="img-state hide" width="656" height="210" src="" alt="img-state1">
+            <p id="state-txt1" class="p-intro hide" style="font-size: medium; margin-bottom: -1cm">t</p>
             <h4 id="mp-txt1" class="mapi-txt hide">Mapa do Estado</h4>
-            <iframe id="gg-map1" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe id="gg-map1" class="gg-map hide" src="" width="656" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <h4 id="fd-txt1" class="foodi-txt hide">Comidas Típicas</h4>
             <ul id="list-food1" class="lst-food hide">
                 <li>
-                    <h5 id="food-text1-1" class="sub-foodi-txt">Jabuticaba</h5>
+                    <h5 id="food-text1-1" class="sub-foodi-txt"></h5>
                     <img id="food-img1-1" src="../Images/modelo.jpg" alt="comida-tipica1" class="img-food">
-                    <p id="food-desc1-1" class="p-food"></p>
+                    <p id="food-desc1-1" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text1-2" class="sub-foodi-txt">bacaxi</h5>
+                    <h5 id="food-text1-2" class="sub-foodi-txt"></h5>
                     <img id="food-img1-2" src="../Images/modelo.jpg" alt="comida-tipica2" class="img-food">
-                    <p id="food-desc1-2" class="p-food"></p>
+                    <p id="food-desc1-2" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text1-3" class="sub-foodi-txt">coro</h5>
+                    <h5 id="food-text1-3" class="sub-foodi-txt"></h5>
                     <img id="food-img1-3" src="../Images/modelo.jpg" alt="comida-tipica3" class="img-food">
-                    <p id="food-desc1-3" class="p-food"></p>
+                    <p id="food-desc1-3" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text1-4" class="sub-foodi-txt">Chcolate</h5>
+                    <h5 id="food-text1-4" class="sub-foodi-txt"></h5>
                     <img id="food-img1-4" src="../Images/modelo.jpg" alt="comida-tipica4" class="img-food">
-                    <p id="food-desc1-4" class="p-food"></p>
+                    <p id="food-desc1-4" class="p-xx"></p>
                 </li>
             </ul>
+
+            <h4 id="cl-txt1" class="clima-txt hide">Clima do Estado</h4>
+            <p id="cl-desc1" class="p-clima hide"></p>
+
+            <h4 id="vi-txt1" class="travel-txt hide">Viagens</h4>
+            <p id="vi-desc1" class="p-travel hide"></p>
         </div>
 
 
@@ -71,32 +79,39 @@
             <button id="btn-extd2f" class="extend-btn hide"><img id="img-extd2f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
             <button id="btn-extd2v" class="extend-btn hide"><img id="img-extd2v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place2-txt" class="place-txt">CO</h3>
-            <p id="state-txt2" class="hide" style="font-size: 80%;">kablau!</p>
+            <img id="img-state2" class="img-state hide" width="656" height="210" src="" alt="img-state2">
+            <p id="state-txt2" class="p-intro hide" style="font-size: medium; margin-bottom: -1cm">t</p>
             <h4 id="mp-txt2" class="mapi-txt hide">Mapa do Estado</h4>
-            <iframe id="gg-map2" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe id="gg-map2" class="gg-map hide" src="" width="656" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <h4 id="fd-txt2" class="foodi-txt hide">Comidas Típicas</h4>
             <ul id="list-food2" class="lst-food hide">
                 <li>
-                    <h5 id="food-text2-1" class="sub-foodi-txt">Jabuticaba</h5>
+                    <h5 id="food-text2-1" class="sub-foodi-txt"></h5>
                     <img id="food-img2-1" src="../Images/modelo.jpg" alt="comida-tipica1" class="img-food">
-                    <p id="food-desc2-1" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc2-1" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text2-2" class="sub-foodi-txt">bacaxi</h5>
+                    <h5 id="food-text2-2" class="sub-foodi-txt"></h5>
                     <img id="food-img2-2" src="../Images/modelo.jpg" alt="comida-tipica2" class="img-food">
-                    <p id="food-desc2-2" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc2-2" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text2-3" class="sub-foodi-txt">coro</h5>
+                    <h5 id="food-text2-3" class="sub-foodi-txt"></h5>
                     <img id="food-img2-3" src="../Images/modelo.jpg" alt="comida-tipica3" class="img-food">
-                    <p id="food-desc2-3" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc2-3" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text2-4" class="sub-foodi-txt">Chcolate</h5>
+                    <h5 id="food-text2-4" class="sub-foodi-txt"></h5>
                     <img id="food-img2-4" src="../Images/modelo.jpg" alt="comida-tipica4" class="img-food">
-                    <p id="food-desc2-4" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc2-4" class="p-xx"></p>
                 </li>
             </ul>
+
+            <h4 id="cl-txt2" class="clima-txt hide">Clima do Estado</h4>
+            <p id="cl-desc2" class="p-clima hide"></p>
+
+            <h4 id="vi-txt2" class="travel-txt hide">Viagens</h4>
+            <p id="vi-desc2" class="p-travel hide"></p>
         </div>
 
 
@@ -104,36 +119,43 @@
             <button id="btn-extd3f" class="extend-btn hide"><img id="img-extd3f" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Down-4-icon.png"></button>
             <button id="btn-extd3v" class="extend-btn hide"><img id="img-extd3v" src="https://icons.iconarchive.com/icons/icons8/ios7/24/Arrows-Up-4-icon.png"></button>
             <h3 id="place3-txt" class="place-txt">RRO</h3>
-            <p id="state-txt3" class="hide" style="font-size: 80%;">puft?</p>
+            <img id="img-state3" class="img-state hide" width="656" height="210" src="" alt="img-state3">
+            <p id="state-txt3" class="p-intro hide" style="font-size: medium; margin-bottom: -1cm">t</p>
             <h4 id="mp-txt3" class="mapi-txt hide">Mapa do Estado</h4>
-            <iframe id="gg-map3" class="gg-map hide" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe id="gg-map3" class="gg-map hide" src="" width="656" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <h4 id="fd-txt3" class="foodi-txt hide">Comidas Típicas</h4>
             <ul id="list-food3" class="lst-food hide">
                 <li>
-                    <h5 id="food-text3-1" class="sub-foodi-txt">Jabuticaba</h5>
+                    <h5 id="food-text3-1" class="sub-foodi-txt"></h5>
                     <img id="food-img3-1" src="../Images/modelo.jpg" alt="comida-tipica1" class="img-food">
-                    <p id="food-desc3-1" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc3-1" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text3-2" class="sub-foodi-txt">bacaxi</h5>
+                    <h5 id="food-text3-2" class="sub-foodi-txt"></h5>
                     <img id="food-img3-2" src="../Images/modelo.jpg" alt="comida-tipica2" class="img-food">
-                    <p id="food-desc3-2" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc3-2" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text3-3" class="sub-foodi-txt">coro</h5>
+                    <h5 id="food-text3-3" class="sub-foodi-txt"></h5>
                     <img id="food-img3-3" src="../Images/modelo.jpg" alt="comida-tipica3" class="img-food">
-                    <p id="food-desc3-3" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc3-3" class="p-xx"></p>
                 </li>
                 <li>
-                    <h5 id="food-text3-4" class="sub-foodi-txt">Chcolate</h5>
+                    <h5 id="food-text3-4" class="sub-foodi-txt"></h5>
                     <img id="food-img3-4" src="../Images/modelo.jpg" alt="comida-tipica4" class="img-food">
-                    <p id="food-desc3-4" class="p-food">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ad voluptates animi consectetur alias corrupti modi quis nisi voluptatibus debitis dolorum earum consequatur suscipit natus, commodi in iusto esse quam?</p>
+                    <p id="food-desc3-4" class="p-xx"></p>
                 </li>
             </ul>
+
+            <h4 id="cl-txt3" class="clima-txt hide">Clima do Estado</h4>
+            <p id="cl-desc3" class="p-clima hide"></p>
+
+            <h4 id="vi-txt3" class="travel-txt hide">Viagens</h4>
+            <p id="vi-desc3" class="p-travel hide"></p>
         </div>
-
-
     </div>
+
+
     <div id="container" class="container hide">
         <div id="option-container" class="hide">
             <img src="https://o.quizlet.com/R83wCCnwxgQylxWG3-vYrg_b.png" id="question-title">
