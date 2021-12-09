@@ -1420,7 +1420,93 @@ function verifyBlocks() {
         bigbutton3fv()
         
     } else if(fregiao == 8 && fclima == 1) {
-        
+        place1txt.innerText = "São Paulo"
+        statetxt1.innerText = "São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste, Paraná a sul, Rio de Janeiro a leste e Mato Grosso do Sul a oeste, além do Oceano Atlântico a sudeste."
+        state_img1.src = "https://exame.com/wp-content/uploads/2019/10/sc3a3o-paulo-1.jpg"
+
+        food_name1_1.innerText = "Virado à Paulista"
+        food_img1_1.src = ""
+        food_desc1_1.innerText = "É um prato típico do estado brasileiro de São Paulo, onde também é conhecido como Virado à Paulista. Foi criado na época das entradas, bandeiras e monções, no Brasil Colônia. Há várias combinações do prato em torno do básico de bisteca de porco, banana frita, feijão mulatinho virado com farinha de mandioca, arroz, couve e ovo frito."
+
+        food_name1_2.innerText = "Cuscuz à paulista"
+        food_img1_2.src = ""
+        food_desc1_2.innerText = "Muito popular no Nordeste, o cuscuz tem origem árabe e é uma das mais importantes receitas de São Paulo. É uma refeição simples e muito saborosa, que consiste basicamente em uma massa de milho cozida no vapor. Já no cuscuz à paulista, o prato recebe recheios variados, que podem ser carnes, peixes, frangos ou outras combinações que agradem o paladar."
+
+        food_name1_3.innerText = "Bauru"
+        food_img1_3.src = ""
+        food_desc1_3.innerText = "Esta comida paulista foi criada na cidade de Bauru, interior de São Paulo. Ele já faz parte do cardápio de lanchonetes e restaurantes de todo País (em diferentes versões, é claro) e pode ser encontrado Brasil afora."
+
+        food_name1_4.innerText = "Bolovo"
+        food_img1_4.src = ""
+        food_desc1_4.innerText = "Uma missão quase impossível é encontrar o famoso bolovo fora de São Paulo. O bolovo é simplesmente um bolinho de carne moída recheado com um ovo cozido inteiro."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773123.4374115462!2d-50.880025451378756!3d-22.553250446881403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1638976841787!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "São Paulo tem estações com características bem definidas, o que ajuda na hora de escolher o clima e tempo que mais te agrada. A cidade está localizada em uma zona de clima subtropical úmido, com características que definem um inverno frio e seco, enquanto o verão é bem quente e úmido, com enorme incidência de chuva."
+
+        travel_desc1.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$163, alémde hospedagem e atrações turísticas, e a duração do voo pode variar entre 1h40 e 6h dependendo do local de embarque."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Minas Gerais"
+        statetxt2.innerText = "Goiás, um estado no centro do Brasil, alberga a savana acidentada, cidades da era colonial e uma agricultura de grande escala. O Parque Nacional da Chapada dos Veadeiros é uma reserva de montanhas paisagísticas com trilhos, rios, desfiladeiros e quedas de água. Fundadas durante o século XVIII, as cidades do ciclo de ouro de Pirenópolis e Goiás Velho (antiga capital do estado) distinguem-se pela arquitetura colonial portuguesa e pelas vibrantes festas cristãs."
+        state_img2.src = "https://i.ytimg.com/vi/5OjKEC8KmWY/maxresdefault.jpg"
+
+        food_name2_1.innerText = "Galinhada"
+        food_img2_1.src = "https://i1.wp.com/files.agro20.com.br/uploads/2020/04/Galinhada-1.jpg"
+        food_desc2_1.innerText = "O Prato preferido do Goiano é a Galinhada. E não é só arroz com galinha, mas pode ser acompanhada também com milho e o famoso pequi ou guariroba, açafrão, pimenta de cheiro e muita cebolinha verde."
+
+        food_name2_2.innerText = "Empadão"
+        food_img2_2.src = "https://t1.rg.ltmcdn.com/pt/images/1/1/9/img_empadao_goiano_2911_orig.jpg"
+        food_desc2_2.innerText = "É uma torta salgada típica da região. Um belo prato feito com uma massa fina recheada com frango, queijo minas em cubos, azeitona e linguiça."
+
+        food_name2_3.innerText = "Pamonha"
+        food_img2_3.src = "https://uploads.emaisgoias.com.br/2021/01/Captura-de-Tela-2021-01-14-às-13.45.32.png"
+        food_desc2_3.innerText = "Em quase toda esquina de Goiânia existe uma Pamonharia. É tradição em Goiás reunir a família para fazer pamonha. Tem Pamonha doce, sal, a moda (geralmente com linguiça, queijo minas, muita cebolinha verde e pimenta). Com frango e catupiry, com creme de pequi, de jiló etc. E ainda tem pamonha frita."
+
+        food_name2_4.innerText = "Peixe na Telha"
+        food_img2_4.src = "https://i2.wp.com/www.xapuri.info/wp-content/uploads/2015/05/peixe-na-telha-comunidade-mais-comunidade.jpg"
+        food_desc2_4.innerText = "Esse prato esáa sempre presente nos restaurantes e nas casas dos goianos. Na receita tradicional é usado peixe de água doce, de couro e em postas, geralmente Pintado ou Surubim com molho de tomate, açafrão, leite de coco e creme de leite. Acompanha arroz branco e um pirão feito com o caldo da cabeça e da espinha do peixe."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7858528.037722338!2d-54.074770566586125!3d-15.900063051386356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935db96386b920f5%3A0x8c6d8f8cd8cf0d3!2zR29pw6Fz!5e0!3m2!1spt-BR!2sbr!4v1636375262710!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "O Estado de Goiás possui clima predominante tropical semi-úmido, suas características se apresentam em duas estações distintas, uma de seca (maio a setembro) e outra chuvosa (outubro a abril)."
+
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Goiânia (Capital de Goiás) varia em média de R$ 385 à R$ 750 dependendo da companhia aérea e outras variantes como horário ou paradas."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Rio de Janeiro"
+        statetxt3.innerText = "Mato Grosso do Sul é uma das 27 unidades federativas do Brasil. Localiza-se no sul da Região Centro-Oeste. Limita-se com cinco estados brasileiros: Mato Grosso, Goiás e Minas Gerais, São Paulo e Paraná; e dois países sul-americanos: Paraguai e Bolívia."
+        state_img3.src = "https://blog.malupires.com.br/wp-content/uploads/2021/07/bonito-mato-grosso-do-sul-pontos-turisticos-2.jpg"
+
+        food_name3_1.innerText = "Chipa"
+        food_img3_1.src = "https://aquelemato.org/wp-content/uploads/2018/07/chipa-paraguaia-mato-grosso-do-sul-2.jpg"
+        food_desc3_1.innerText = "Essa tradicional receita tem origem na celebração da Sexta-feira Santa, quando, devido ao resguardo religioso, as mulheres preparavam uma quantidade de chipa na véspera para ser consumida no dia seguinte. Atualmente é servida sempre e em qualquer local, sendo uma 'prima' do pão-de-queijo-mineiro, porém com consistência e sabor próprios."
+
+        food_name3_2.innerText = "Doce de Jaracatiá"
+        food_img3_2.src = "https://media-cdn.tripadvisor.com/media/photo-s/14/12/e3/5c/sorvete-de-jaracatia.jpg"
+        food_desc3_2.innerText = "O jaracatiá ou mamão-de-veado (Jacaratia spinosa), é uma árvore da família do mamoeiro, ainda bastante abundante pois a madeira não tem utilidade comercial (é oca e mole). Seu fruto é comestível, procurado por muitos animais, mas é necessário tirar o leite de sua casca antes de comer, pois pode ser tóxico. Pode-se fazer um delicioso doce com seu fruto e com seu caule."
+
+        food_name3_3.innerText = "Locro"
+        food_img3_3.src = "http://portalfaces.com.br/wp-content/uploads/2020/04/4cb258361327b308ae338549d7b5c827.jpg"
+        food_desc3_3.innerText = "Essa é a denominação para um prato à base de canjica de milho e vértebras de boi, denominadas como 'puchero'. É um alimento bastante forte, sendo preparado logo durante o carneamento do boi, com a finalidade de fortalecer os peões, empreiteiros e outros trabalhadores das fazendas nas regiões de fronteira entre Brasil e principalmente Paraguai."
+
+        food_name3_4.innerText = "Marmelada"
+        food_img3_4.src = "https://www.greenme.com.br/wp-content/uploads/2017/11/marmelada.jpg"
+        food_desc3_4.innerText = "O marmelo, fruta que ocorre na região, pode ser consumida diretamente da árvore, mas o doce preparado é um dos mais antigos e tradicionais do Brasil, tanto que o nome “marmelada” é hoje utilizado para designar compotas de sabores diferentes inclusive em outros países."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7650744.986605649!2d-59.04165762147003!3d-20.558825377289097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947e91dbe29f7383%3A0x351cd8e9695410ac!2sMato%20Grosso%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1636379447700!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima predominante no Estado do Mato Grosso do Sul é o clima tropical, sendo o clima tropical semiúmido o predominante no território do Estado. Este tipo de clima se caracteriza por apresentar verões quentes e chuvosos e inverno seco e pouco frio."
+
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Campo Grande (Capital do Mato Grosso do Sul) varia em média de R$ 485 à R$ 1450 dependendo da companhia aérea e outras variantes como tipo de voo, horário ou paradas."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 8 && fclima == 2) {
         
     } else if(fregiao == 8 && fclima == 3) {
