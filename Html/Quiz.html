@@ -21,18 +21,21 @@
     <title>Quiz</title>
 </head>
 <body>
-    <ul class="navbar">       
-        <li><a href="../Html/Support.html">Suporte</a></li>
-        <li><a href="../Html/AboutUs.html">Sobre Nós</a></li>
-        <li><a href="../Html/Quiz.html">Quiz</a></li>
-        <li><a href="../index.html">Home</a></li>
-        <li style="float:left"><a class="Travelaux" href="../index.html">TravelAux</a></li>
-    </ul>
+    <div class="row">
+        <ul class="navbar col-12">       
+            <li><a href="Html/Support.html">Suporte</a></li>
+            <li><a href="Html/AboutUs.html">Sobre Nós</a></li>
+            <li><a href="Html/Quiz.html">Quiz</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li style="float:left"><a class="Travelaux" href="../index.html">TravelAux</a></li>
+        </ul>
+    </div>
+
     <hr>
-    <h1 class="sub-title">Quiz</h1>
+    <h1 class="sub-title col-12">Quiz</h1>
     <hr>
 
-    <p id="sub-texte" class="sub-text">Responda o Quiz para descobrir seu próximo destino!!</p>
+    <p id="sub-texte" class="sub-text col-12">Responda o Quiz para descobrir seu próximo destino!!</p>
 
     <div id="places" class="places hide">
         <div id="place-1" class="place hide" loading="lazy">
@@ -177,18 +180,24 @@
     </div>
 
     <div class="footer">
-        <div class="social">
-            <a href="#"><i class="icon ion-social-instagram"></i></a>
-            <a href="#"><i class="icon ion-social-twitter"></i></a>
-            <a href="#"><i class="icon ion-social-facebook"></i></a>
+        <div class="row">
+            <div class="social col-12">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="https://github.com"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
         </div>
-        <ul class="list-inline">       
-            <li class="list-inline-item"><a href="../Html/Privacy.html">Política de Privacidade</a></li>
-            <li class="list-inline-item"><a href="../Html/Terms.html">Termos</a></li>
-            <li class="list-inline-item"><a href="../Html/About.html">Sobre</a></li>
-            <li class="list-inline-item"><a href="../index.html">Home</a></li>
-        </ul>
-        <p class="copyright">TravelAux © 2021</p>
+
+        <div class="row">
+            <ul class="list-inline col-12">
+                <li class="list-inline-item"><a href="index.html">Home</a></li> 
+                <li class="list-inline-item"><a href="Html/About.html">Sobre</a></li> 
+                <li class="list-inline-item"><a href="Html/Terms.html">Termos</a></li>     
+                <li class="list-inline-item"><a href="Html/Privacy.html">Política de Privacidade</a></li>
+            </ul>
+        </div>
+
+        <div class="row"><p class="copyright col-12">TravelAux © 2021</p></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
