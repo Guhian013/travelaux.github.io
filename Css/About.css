@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+  
 .Travelaux {
     font-size: xx-large;
     font-weight: bold;
@@ -30,10 +34,14 @@
 }
 
 .texte {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
+    margin: 0 4cm;
     padding-top: 15px; 
+    margin-bottom: 1cm;
     font-family: 'Poppins', sans-serif;
 }
 
