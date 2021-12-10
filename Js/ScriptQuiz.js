@@ -200,10 +200,10 @@ function selectOption(e) {
         if (selectedButton.dataset.value >= 1 && selectedButton.dataset.value <= 4) {
             pt = selectedButton.dataset.value
             setClima(pt)
-        } else if (selectedButton.dataset.value >= 5 && selectedButton.dataset.value <= 8) {
+        } else if (selectedButton.dataset.value >= 5 && selectedButton.dataset.value <= 9) {
             pt = selectedButton.dataset.value
             setRegiao(pt)
-        } else if (selectedButton.dataset.value >= 9 && selectedButton.dataset.value <= 12) {
+        } else if (selectedButton.dataset.value >= 10 && selectedButton.dataset.value <= 13) {
             pt = selectedButton.dataset.value
             setTransporte(pt)
         }
@@ -1425,19 +1425,19 @@ function verifyBlocks() {
         state_img1.src = "https://exame.com/wp-content/uploads/2019/10/sc3a3o-paulo-1.jpg"
 
         food_name1_1.innerText = "Virado à Paulista"
-        food_img1_1.src = ""
+        food_img1_1.src = "https://img.itdg.com.br/tdg/images/recipes/000/026/749/355376/355376_original.jpg"
         food_desc1_1.innerText = "É um prato típico do estado brasileiro de São Paulo, onde também é conhecido como Virado à Paulista. Foi criado na época das entradas, bandeiras e monções, no Brasil Colônia. Há várias combinações do prato em torno do básico de bisteca de porco, banana frita, feijão mulatinho virado com farinha de mandioca, arroz, couve e ovo frito."
 
         food_name1_2.innerText = "Cuscuz à paulista"
-        food_img1_2.src = ""
+        food_img1_2.src = "https://img.itdg.com.br/tdg/images/recipes/000/061/325/325758/325758_original.jpg"
         food_desc1_2.innerText = "Muito popular no Nordeste, o cuscuz tem origem árabe e é uma das mais importantes receitas de São Paulo. É uma refeição simples e muito saborosa, que consiste basicamente em uma massa de milho cozida no vapor. Já no cuscuz à paulista, o prato recebe recheios variados, que podem ser carnes, peixes, frangos ou outras combinações que agradem o paladar."
 
         food_name1_3.innerText = "Bauru"
-        food_img1_3.src = ""
+        food_img1_3.src = "http://dicas.guiamais.com.br/wp-content/uploads/2012/04/lanche-bauru.jpg"
         food_desc1_3.innerText = "Esta comida paulista foi criada na cidade de Bauru, interior de São Paulo. Ele já faz parte do cardápio de lanchonetes e restaurantes de todo País (em diferentes versões, é claro) e pode ser encontrado Brasil afora."
 
         food_name1_4.innerText = "Bolovo"
-        food_img1_4.src = ""
+        food_img1_4.src = "https://img.itdg.com.br/tdg/images/recipes/000/199/322/308243/308243_original.jpg"
         food_desc1_4.innerText = "Uma missão quase impossível é encontrar o famoso bolovo fora de São Paulo. O bolovo é simplesmente um bolinho de carne moída recheado com um ovo cozido inteiro."
 
         map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773123.4374115462!2d-50.880025451378756!3d-22.553250446881403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1638976841787!5m2!1spt-BR!2sbr"
@@ -1450,79 +1450,679 @@ function verifyBlocks() {
         bigbutton1fv()
 
         place2txt.innerText = "Minas Gerais"
-        statetxt2.innerText = "Goiás, um estado no centro do Brasil, alberga a savana acidentada, cidades da era colonial e uma agricultura de grande escala. O Parque Nacional da Chapada dos Veadeiros é uma reserva de montanhas paisagísticas com trilhos, rios, desfiladeiros e quedas de água. Fundadas durante o século XVIII, as cidades do ciclo de ouro de Pirenópolis e Goiás Velho (antiga capital do estado) distinguem-se pela arquitetura colonial portuguesa e pelas vibrantes festas cristãs."
-        state_img2.src = "https://i.ytimg.com/vi/5OjKEC8KmWY/maxresdefault.jpg"
+        statetxt2.innerText = "Minas Gerais, um grande estado continental no sudeste do Brasil, é conhecido por cidades da era colonial que remetem à corrida do ouro no país no século 18. Entre elas estão São João del Rei, Tiradentes e Ouro Preto, a antiga capital, todas com ruas de paralelepípedo, mansões ornamentadas e igrejas barrocas decoradas pelo escultor Aleijadinho.O famoso trem a vapor Maria Fumaça liga Tiradentes a São João del Rei."
+        state_img2.src = "https://content.presspage.com/uploads/685/c1920_tiradentesminasgeraisbrazil-2.jpg"
 
-        food_name2_1.innerText = "Galinhada"
-        food_img2_1.src = "https://i1.wp.com/files.agro20.com.br/uploads/2020/04/Galinhada-1.jpg"
-        food_desc2_1.innerText = "O Prato preferido do Goiano é a Galinhada. E não é só arroz com galinha, mas pode ser acompanhada também com milho e o famoso pequi ou guariroba, açafrão, pimenta de cheiro e muita cebolinha verde."
+        food_name2_1.innerText = "Frango com Quiabo"
+        food_img2_1.src = "https://tecnonoticias.com.br/blogs/cozinhafacil/wp-content/uploads/2020/07/frango-com-quiabo2.jpeg"
+        food_desc2_1.innerText = "A mistura desses dois ingredientes rende um dos pratos mais clássicos para os mineiros, feito a partir de um ensopado de frango caipira. Afirma-se que o sabor “original” dessa receita só é possível com a utilização desse tipo de frango, pois o frango industrializado acaba tirando toda a essência do autêntico frango com quiabo."
 
-        food_name2_2.innerText = "Empadão"
-        food_img2_2.src = "https://t1.rg.ltmcdn.com/pt/images/1/1/9/img_empadao_goiano_2911_orig.jpg"
-        food_desc2_2.innerText = "É uma torta salgada típica da região. Um belo prato feito com uma massa fina recheada com frango, queijo minas em cubos, azeitona e linguiça."
+        food_name2_2.innerText = "Tutu"
+        food_img2_2.src = "https://www.visiteobrasil.com.br/galerias/carac8-minas-gerais-tutu-a-mineira/587-112453-culinaria-mineira-tutu-a-mineira-foto-divulgacaogr.jpg"
+        food_desc2_2.innerText = "O feijão, um dos ingredientes mais importantes para os mineiros, se transforma no saboroso tutu quando é cozido, temperado, batido e misturado com farinha de milho ou de mandioca. Adquire uma consistência mais pastosa e pode ganhar o adicional de torresmo, bacon ou ovos cozidos."
 
-        food_name2_3.innerText = "Pamonha"
-        food_img2_3.src = "https://uploads.emaisgoias.com.br/2021/01/Captura-de-Tela-2021-01-14-às-13.45.32.png"
-        food_desc2_3.innerText = "Em quase toda esquina de Goiânia existe uma Pamonharia. É tradição em Goiás reunir a família para fazer pamonha. Tem Pamonha doce, sal, a moda (geralmente com linguiça, queijo minas, muita cebolinha verde e pimenta). Com frango e catupiry, com creme de pequi, de jiló etc. E ainda tem pamonha frita."
+        food_name2_3.innerText = "Feijão Tropeiro"
+        food_img2_3.src = "https://simplelivingrecipes.com/wp-content/uploads/2019/06/Feijao-Tropeiro-1.jpeg"
+        food_desc2_3.innerText = "Mais uma vez, o feijão estrela uma das receitas mais tradicionais de Minas Gerais, em um prato que surgiu com os tropeiros, que misturavam farinha, carne e ovos ao feijão. O resultado é uma iguaria com sabor único, que está presente em larga escala pelos restaurantes dos mais de 800 municípios mineiros."
 
-        food_name2_4.innerText = "Peixe na Telha"
-        food_img2_4.src = "https://i2.wp.com/www.xapuri.info/wp-content/uploads/2015/05/peixe-na-telha-comunidade-mais-comunidade.jpg"
-        food_desc2_4.innerText = "Esse prato esáa sempre presente nos restaurantes e nas casas dos goianos. Na receita tradicional é usado peixe de água doce, de couro e em postas, geralmente Pintado ou Surubim com molho de tomate, açafrão, leite de coco e creme de leite. Acompanha arroz branco e um pirão feito com o caldo da cabeça e da espinha do peixe."
+        food_name2_4.innerText = "Leitão a Pururuca"
+        food_img2_4.src = "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-leitao-pururuca.jpg"
+        food_desc2_4.innerText = "Para que se prepare um leitão a pururuca, é necessário empregar muita técnica. O porco deve ser assado com pele e, logo após esse procedimento, deve-se passar gelo em toda sua superfície para, então, jogar óleo muito quente sobre ela. Quando bem feita, o resultado dessa técnica é uma pele fritinha, cheia de bolhas e que fica crocante."
 
-        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7858528.037722338!2d-54.074770566586125!3d-15.900063051386356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935db96386b920f5%3A0x8c6d8f8cd8cf0d3!2zR29pw6Fz!5e0!3m2!1spt-BR!2sbr!4v1636375262710!5m2!1spt-BR!2sbr"
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7747774.534855807!2d-49.94785049282104!3d-18.524697480011483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690a165324289%3A0x112170c9379de7b3!2sMinas%20Gerais!5e0!3m2!1spt-BR!2sbr!4v1639138637724!5m2!1spt-BR!2sbr"
 
-        clima_desc2.innerText = "O Estado de Goiás possui clima predominante tropical semi-úmido, suas características se apresentam em duas estações distintas, uma de seca (maio a setembro) e outra chuvosa (outubro a abril)."
+        clima_desc2.innerText = "No Território mineiro o clima que predomina é o tropical de altitude, além de apresentar o tropical. O clima tropical se apresenta nas áreas mais baixas, a temperatura nessa região oscila entre 22 e 23ºC com duas estações bem definidas, com verões chuvosos e invernos secos."
 
-        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Goiânia (Capital de Goiás) varia em média de R$ 385 à R$ 750 dependendo da companhia aérea e outras variantes como horário ou paradas."
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Minas Gerais varia em média de R$ 500 à R$ 850 dependendo da companhia aérea e outras variantes como horário, paradas ou tipo de viagem."
 
         bigbutton2f.classList.remove('hide')
         bigbutton2fv()
 
         place3txt.innerText = "Rio de Janeiro"
-        statetxt3.innerText = "Mato Grosso do Sul é uma das 27 unidades federativas do Brasil. Localiza-se no sul da Região Centro-Oeste. Limita-se com cinco estados brasileiros: Mato Grosso, Goiás e Minas Gerais, São Paulo e Paraná; e dois países sul-americanos: Paraguai e Bolívia."
-        state_img3.src = "https://blog.malupires.com.br/wp-content/uploads/2021/07/bonito-mato-grosso-do-sul-pontos-turisticos-2.jpg"
+        statetxt3.innerText = "O Rio de Janeiro é um estado no sudeste do Brasil. A sua capital, com o mesmo nome, é conhecida pelas praias, o Pão de Açúcar e a estátua do Cristo Redentor no cimo do morro do Corcovado. O ponto de referência do arquiteto Oscar Niemeyer, o Museu de Arte Contemporânea de Niterói, fica do lado oposto da Baía de Guanabara, em Niterói. Ao longo da costa atlântica do estado, encontra-se Ilha Grande, uma ilha arborizada rodeada de praias, e a cidade colonial de Paraty."
+        state_img3.src = "https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg"
 
-        food_name3_1.innerText = "Chipa"
-        food_img3_1.src = "https://aquelemato.org/wp-content/uploads/2018/07/chipa-paraguaia-mato-grosso-do-sul-2.jpg"
-        food_desc3_1.innerText = "Essa tradicional receita tem origem na celebração da Sexta-feira Santa, quando, devido ao resguardo religioso, as mulheres preparavam uma quantidade de chipa na véspera para ser consumida no dia seguinte. Atualmente é servida sempre e em qualquer local, sendo uma 'prima' do pão-de-queijo-mineiro, porém com consistência e sabor próprios."
+        food_name3_1.innerText = "Feijoada"
+        food_img3_1.src = "https://img.cybercook.com.br/imagens/receitas/991/feijoada-carioca.jpeg"
+        food_desc3_1.innerText = "A feijoada carioca é conhecida por ingredientes como feijão preto e diversas partes do porco. O prato fica ainda mais gostoso acompanhado de couve refogada caprichada, farofinha feita na hora e arroz branco."
 
-        food_name3_2.innerText = "Doce de Jaracatiá"
-        food_img3_2.src = "https://media-cdn.tripadvisor.com/media/photo-s/14/12/e3/5c/sorvete-de-jaracatia.jpg"
-        food_desc3_2.innerText = "O jaracatiá ou mamão-de-veado (Jacaratia spinosa), é uma árvore da família do mamoeiro, ainda bastante abundante pois a madeira não tem utilidade comercial (é oca e mole). Seu fruto é comestível, procurado por muitos animais, mas é necessário tirar o leite de sua casca antes de comer, pois pode ser tóxico. Pode-se fazer um delicioso doce com seu fruto e com seu caule."
+        food_name3_2.innerText = "Bolinho de Bacalhau"
+        food_img3_2.src = "https://receitasmais.com.br/wp-content/uploads/2013/03/Bolinho-de-bacalhau.jpg"
+        food_desc3_2.innerText = "A massa do bolinho conta com batata e cheiro-verde, que dão aquele toque na textura e no sabor do salgado. Tudo pode ficar ainda mais gostoso se você servir esse aperitivo acompanhado de algumas gotinhas de azeite."
 
-        food_name3_3.innerText = "Locro"
-        food_img3_3.src = "http://portalfaces.com.br/wp-content/uploads/2020/04/4cb258361327b308ae338549d7b5c827.jpg"
-        food_desc3_3.innerText = "Essa é a denominação para um prato à base de canjica de milho e vértebras de boi, denominadas como 'puchero'. É um alimento bastante forte, sendo preparado logo durante o carneamento do boi, com a finalidade de fortalecer os peões, empreiteiros e outros trabalhadores das fazendas nas regiões de fronteira entre Brasil e principalmente Paraguai."
+        food_name3_3.innerText = "Biscoito Globo"
+        food_img3_3.src = "https://ogimg.infoglobo.com.br/in/19923793-52b-4f7/FT1086A/xglobo.jpg.pagespeed.ic.EG7ao22IEF.jpg"
+        food_desc3_3.innerText = "Levinho, crocante e delicioso, o biscoito Globo tem esse nome em homenagem à padaria onde era feito. Nas terras cariocas, você pode encontrá-lo na versão salgada ou doce."
 
-        food_name3_4.innerText = "Marmelada"
-        food_img3_4.src = "https://www.greenme.com.br/wp-content/uploads/2017/11/marmelada.jpg"
-        food_desc3_4.innerText = "O marmelo, fruta que ocorre na região, pode ser consumida diretamente da árvore, mas o doce preparado é um dos mais antigos e tradicionais do Brasil, tanto que o nome “marmelada” é hoje utilizado para designar compotas de sabores diferentes inclusive em outros países."
+        food_name3_4.innerText = "Filé à Oswaldo Aranha"
+        food_img3_4.src = "https://www.papodebar.com/wp-content/uploads/2012/11/file-oswaldo-aranha.jpg"
+        food_desc3_4.innerText = "O nome da receita foi dado em homenagem ao político Oswaldo Aranha, que ia sempre a um restaurante na Lapa e pedia o mesmo prato: um filé temperado com alho frito acompanhado de batatas portuguesas, farofa de ovo e arroz soltinho."
 
-        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7650744.986605649!2d-59.04165762147003!3d-20.558825377289097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947e91dbe29f7383%3A0x351cd8e9695410ac!2sMato%20Grosso%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1636379447700!5m2!1spt-BR!2sbr"
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786720.626764539!2d-45.16779367556124!3d-22.050767463332168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x981894cae28ac3%3A0x349c31ac10583d0!2sRio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1639146625233!5m2!1spt-BR!2sbr"
 
-        clima_desc3.innerText = "O clima predominante no Estado do Mato Grosso do Sul é o clima tropical, sendo o clima tropical semiúmido o predominante no território do Estado. Este tipo de clima se caracteriza por apresentar verões quentes e chuvosos e inverno seco e pouco frio."
+        clima_desc3.innerText = "O clima no Rio de Janeiro, é tropical, quente e úmido, com variações locais, devido às diferenças de altitude, vegetação e proximidade do oceano; a temperatura média anual é de 22º centígrados, com médias diárias elevadas no verão (de 30º a 32º); as chuvas variam de 1.200 a 1.800 mm anuais"
 
-        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Campo Grande (Capital do Mato Grosso do Sul) varia em média de R$ 485 à R$ 1450 dependendo da companhia aérea e outras variantes como tipo de voo, horário ou paradas."
+        travel_desc3.innerText = "O gasto total de uma viagem seria em cerca de R$ 2.181,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
 
         bigbutton3f.classList.remove('hide')
         bigbutton3fv()
 
     } else if(fregiao == 8 && fclima == 2) {
-        
+        place1txt.innerText = "Rio de Janeiro"
+        statetxt1.innerText = "O Rio de Janeiro é um estado no sudeste do Brasil. A sua capital, com o mesmo nome, é conhecida pelas praias, o Pão de Açúcar e a estátua do Cristo Redentor no cimo do morro do Corcovado. O ponto de referência do arquiteto Oscar Niemeyer, o Museu de Arte Contemporânea de Niterói, fica do lado oposto da Baía de Guanabara, em Niterói. Ao longo da costa atlântica do estado, encontra-se Ilha Grande, uma ilha arborizada rodeada de praias, e a cidade colonial de Paraty."
+        state_img1.src = "https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg"
+
+        food_name1_1.innerText = "Feijoada"
+        food_img1_1.src = "https://img.cybercook.com.br/imagens/receitas/991/feijoada-carioca.jpeg"
+        food_desc1_1.innerText = "A feijoada carioca é conhecida por ingredientes como feijão preto e diversas partes do porco. O prato fica ainda mais gostoso acompanhado de couve refogada caprichada, farofinha feita na hora e arroz branco."
+
+        food_name1_2.innerText = "Bolinho de Bacalhau"
+        food_img1_2.src = "https://receitasmais.com.br/wp-content/uploads/2013/03/Bolinho-de-bacalhau.jpg"
+        food_desc1_2.innerText = "A massa do bolinho conta com batata e cheiro-verde, que dão aquele toque na textura e no sabor do salgado. Tudo pode ficar ainda mais gostoso se você servir esse aperitivo acompanhado de algumas gotinhas de azeite."
+
+        food_name1_3.innerText = "Biscoito Globo"
+        food_img1_3.src = "https://ogimg.infoglobo.com.br/in/19923793-52b-4f7/FT1086A/xglobo.jpg.pagespeed.ic.EG7ao22IEF.jpg"
+        food_desc1_3.innerText = "Levinho, crocante e delicioso, o biscoito Globo tem esse nome em homenagem à padaria onde era feito. Nas terras cariocas, você pode encontrá-lo na versão salgada ou doce."
+
+        food_name1_4.innerText = "Filé à Oswaldo Aranha"
+        food_img1_4.src = "https://www.papodebar.com/wp-content/uploads/2012/11/file-oswaldo-aranha.jpg"
+        food_desc1_4.innerText = "O nome da receita foi dado em homenagem ao político Oswaldo Aranha, que ia sempre a um restaurante na Lapa e pedia o mesmo prato: um filé temperado com alho frito acompanhado de batatas portuguesas, farofa de ovo e arroz soltinho."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786720.626764539!2d-45.16779367556124!3d-22.050767463332168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x981894cae28ac3%3A0x349c31ac10583d0!2sRio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1639146625233!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "O clima no Rio de Janeiro, é tropical, quente e úmido, com variações locais, devido às diferenças de altitude, vegetação e proximidade do oceano; a temperatura média anual é de 22º centígrados, mesmo assim, seu inverno pode contar com temperaturas abaixo de 20ºC. As chuvas variam de 1.200 a 1.800 mm anuais"
+
+        travel_desc1.innerText = "O gasto total de uma viagem seria em cerca de R$ 2.181,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "São Paulo"
+        statetxt2.innerText = "São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste, Paraná a sul, Rio de Janeiro a leste e Mato Grosso do Sul a oeste, além do Oceano Atlântico a sudeste."
+        state_img2.src = "https://exame.com/wp-content/uploads/2019/10/sc3a3o-paulo-1.jpg"
+
+        food_name2_1.innerText = "Virado à Paulista"
+        food_img2_1.src = "https://img.itdg.com.br/tdg/images/recipes/000/026/749/355376/355376_original.jpg"
+        food_desc2_1.innerText = "É um prato típico do estado brasileiro de São Paulo, onde também é conhecido como Virado à Paulista. Foi criado na época das entradas, bandeiras e monções, no Brasil Colônia. Há várias combinações do prato em torno do básico de bisteca de porco, banana frita, feijão mulatinho virado com farinha de mandioca, arroz, couve e ovo frito."
+
+        food_name2_2.innerText = "Cuscuz à paulista"
+        food_img2_2.src = "https://img.itdg.com.br/tdg/images/recipes/000/061/325/325758/325758_original.jpg"
+        food_desc2_2.innerText = "Muito popular no Nordeste, o cuscuz tem origem árabe e é uma das mais importantes receitas de São Paulo. É uma refeição simples e muito saborosa, que consiste basicamente em uma massa de milho cozida no vapor. Já no cuscuz à paulista, o prato recebe recheios variados, que podem ser carnes, peixes, frangos ou outras combinações que agradem o paladar."
+
+        food_name2_3.innerText = "Bauru"
+        food_img2_3.src = "http://dicas.guiamais.com.br/wp-content/uploads/2012/04/lanche-bauru.jpg"
+        food_desc2_3.innerText = "Esta comida paulista foi criada na cidade de Bauru, interior de São Paulo. Ele já faz parte do cardápio de lanchonetes e restaurantes de todo País (em diferentes versões, é claro) e pode ser encontrado Brasil afora."
+
+        food_name2_4.innerText = "Bolovo"
+        food_img2_4.src = "https://img.itdg.com.br/tdg/images/recipes/000/199/322/308243/308243_original.jpg"
+        food_desc2_4.innerText = "Uma missão quase impossível é encontrar o famoso bolovo fora de São Paulo. O bolovo é simplesmente um bolinho de carne moída recheado com um ovo cozido inteiro."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773123.4374115462!2d-50.880025451378756!3d-22.553250446881403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1638976841787!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "São Paulo tem estações com características bem definidas, o que ajuda na hora de escolher o clima e tempo que mais te agrada. A cidade está localizada em uma zona de clima subtropical úmido, com características que definem um inverno frio e seco, que em regiões ao sul do estado, a temperatura pode chegar a 18ºC em média, com enorme incidência de chuva."
+
+        travel_desc2.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$163, alémde hospedagem e atrações turísticas, e a duração do voo pode variar entre 1h40 e 6h dependendo do local de embarque."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Espírito Santo"
+        statetxt3.innerText = "O Espírito Santo, estado da região Sudeste do Brasil, é conhecido por suas praias tropicais e áreas naturais montanhosas preservadas. Fundada em 1551, Vitória, capital e cidade portuária, tem um pequeno centro da era colonial. Do outro lado da estreita baía de Vitória, fica Vila Velha, com a movimentada Praia da Costa e o Convento da Penha, construção do século XVI que fica no alto de um penhasco e oferece uma vista panorâmica."
+        state_img3.src = "https://caminhagente.com.br/wp-content/uploads/2019/07/IMG_7937-1-1024x768.jpg"
+
+        food_name3_1.innerText = "Moqueca Capixaba"
+        food_img3_1.src = "https://jornal140.com/wp-content/uploads/2019/11/Moqueca-Capixaba.png"
+        food_desc3_1.innerText = "A disputa do prato com a moqueca baiana existe, mas de uma forma bem-humorada. Porém, a moqueca capixaba não leva azeite de dendê e leite de coco. E outra diferença é que a sua preparação é feita apenas nas panelas de barro, criadas artesanalmente pelas paneleiras de Goiabeiras."
+
+        food_name3_2.innerText = "Torta Capixaba"
+        food_img3_2.src = "https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/03/e9914dea-torta-capixaba-de-bacalhau-_-tm-bacalhau-_-gislaine-oliveira-_-baixa-2.jpg"
+        food_desc3_2.innerText = "Esse prato é o prato oficial da Semana Santa no Espírito Santo. A origem dele ultrapassa 400 anos e envolve as tradições das comunidades litorâneas e vilas de pescadores. O prato leva muitos frutos do mar desfiados e cozidos: siri, caranguejo, camarão, ostra, sururu, badejo e bacalhau."
+
+        food_name3_3.innerText = "Quibebe de Abóbora"
+        food_img3_3.src = "https://cdn.panelinha.com.br/receita/1555347218472-CP-2019-29-01_6544.jpg"
+        food_desc3_3.innerText = "O quibebe de abóbora é um purê feito com a fruta e temperado com alho, cebola, salsa e cebolinha, além de óleo de girassol, sal e açúcar. O acompanhamento é com costelinha de porco ou torresmo. Esses sabores, quando se misturam, formam um prato exótico e de sabor único."
+
+        food_name3_4.innerText = "Camarão no Coco"
+        food_img3_4.src = "https://midias.agazeta.com.br/2020/02/11/camarao-no-coco-famoso-prato-do-restaurante-atlantica-183317.jpg"
+        food_desc3_4.innerText = "Um dos pratos mais exóticos e bonitos do Espírito Santo é o Camarão no coco. Ele leva água de coco e camarão como base, mas também tem salsa, leite de coco, sal e pimenta. É servido com batata palha artesanal e arroz branco."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7701014.136922567!2d-39.873300689731224!3d-19.53041333665115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7069579646359%3A0x4e1bd5243c50f799!2sEsp%C3%ADrito%20Santo!5e0!3m2!1spt-BR!2sbr!4v1636367622677!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima do Estado do Espírito Santo é tropical úmido, com temperaturas médias anuais de 23°C e volume de precipitação superior a 1.400 mm por ano, especialmente concentrada no verão."
+
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Vitória (Capital do Espírito Santo) varia em média de R$ 400 à R$ 700 dependendo da companhia aérea e outras variantes como horário ou paradas."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 8 && fclima == 3) {
+        place1txt.innerText = "Espírito Santo"
+        statetxt1.innerText = "O Espírito Santo, estado da região Sudeste do Brasil, é conhecido por suas praias tropicais e áreas naturais montanhosas preservadas. Fundada em 1551, Vitória, capital e cidade portuária, tem um pequeno centro da era colonial. Do outro lado da estreita baía de Vitória, fica Vila Velha, com a movimentada Praia da Costa e o Convento da Penha, construção do século XVI que fica no alto de um penhasco e oferece uma vista panorâmica."
+        state_img1.src = "https://caminhagente.com.br/wp-content/uploads/2019/07/IMG_7937-1-1024x768.jpg"
+
+        food_name1_1.innerText = "Moqueca Capixaba"
+        food_img1_1.src = "https://jornal140.com/wp-content/uploads/2019/11/Moqueca-Capixaba.png"
+        food_desc1_1.innerText = "A disputa do prato com a moqueca baiana existe, mas de uma forma bem-humorada. Porém, a moqueca capixaba não leva azeite de dendê e leite de coco. E outra diferença é que a sua preparação é feita apenas nas panelas de barro, criadas artesanalmente pelas paneleiras de Goiabeiras."
+
+        food_name1_2.innerText = "Torta Capixaba"
+        food_img1_2.src = "https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/03/e9914dea-torta-capixaba-de-bacalhau-_-tm-bacalhau-_-gislaine-oliveira-_-baixa-2.jpg"
+        food_desc1_2.innerText = "Esse prato é o prato oficial da Semana Santa no Espírito Santo. A origem dele ultrapassa 400 anos e envolve as tradições das comunidades litorâneas e vilas de pescadores. O prato leva muitos frutos do mar desfiados e cozidos: siri, caranguejo, camarão, ostra, sururu, badejo e bacalhau."
+
+        food_name1_3.innerText = "Quibebe de Abóbora"
+        food_img1_3.src = "https://cdn.panelinha.com.br/receita/1555347218472-CP-2019-29-01_6544.jpg"
+        food_desc1_3.innerText = "O quibebe de abóbora é um purê feito com a fruta e temperado com alho, cebola, salsa e cebolinha, além de óleo de girassol, sal e açúcar. O acompanhamento é com costelinha de porco ou torresmo. Esses sabores, quando se misturam, formam um prato exótico e de sabor único."
+
+        food_name1_4.innerText = "Camarão no Coco"
+        food_img1_4.src = "https://midias.agazeta.com.br/2020/02/11/camarao-no-coco-famoso-prato-do-restaurante-atlantica-183317.jpg"
+        food_desc1_4.innerText = "Um dos pratos mais exóticos e bonitos do Espírito Santo é o Camarão no coco. Ele leva água de coco e camarão como base, mas também tem salsa, leite de coco, sal e pimenta. É servido com batata palha artesanal e arroz branco."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7701014.136922567!2d-39.873300689731224!3d-19.53041333665115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7069579646359%3A0x4e1bd5243c50f799!2sEsp%C3%ADrito%20Santo!5e0!3m2!1spt-BR!2sbr!4v1636367622677!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "O clima do Estado do Espírito Santo é tropical úmido, com temperaturas médias anuais de 23°C e volume de precipitação superior a 1.400 mm por ano, especialmente concentrada no verão."
+
+        travel_desc1.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Vitória (Capital do Espírito Santo) varia em média de R$ 400 à R$ 700 dependendo da companhia aérea e outras variantes como horário ou paradas."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "São Paulo"
+        statetxt2.innerText = "São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste, Paraná a sul, Rio de Janeiro a leste e Mato Grosso do Sul a oeste, além do Oceano Atlântico a sudeste."
+        state_img2.src = "https://exame.com/wp-content/uploads/2019/10/sc3a3o-paulo-1.jpg"
+
+        food_name2_1.innerText = "Virado à Paulista"
+        food_img2_1.src = "https://img.itdg.com.br/tdg/images/recipes/000/026/749/355376/355376_original.jpg"
+        food_desc2_1.innerText = "É um prato típico do estado brasileiro de São Paulo, onde também é conhecido como Virado à Paulista. Foi criado na época das entradas, bandeiras e monções, no Brasil Colônia. Há várias combinações do prato em torno do básico de bisteca de porco, banana frita, feijão mulatinho virado com farinha de mandioca, arroz, couve e ovo frito."
+
+        food_name2_2.innerText = "Cuscuz à paulista"
+        food_img2_2.src = "https://img.itdg.com.br/tdg/images/recipes/000/061/325/325758/325758_original.jpg"
+        food_desc2_2.innerText = "Muito popular no Nordeste, o cuscuz tem origem árabe e é uma das mais importantes receitas de São Paulo. É uma refeição simples e muito saborosa, que consiste basicamente em uma massa de milho cozida no vapor. Já no cuscuz à paulista, o prato recebe recheios variados, que podem ser carnes, peixes, frangos ou outras combinações que agradem o paladar."
+
+        food_name2_3.innerText = "Bauru"
+        food_img2_3.src = "http://dicas.guiamais.com.br/wp-content/uploads/2012/04/lanche-bauru.jpg"
+        food_desc2_3.innerText = "Esta comida paulista foi criada na cidade de Bauru, interior de São Paulo. Ele já faz parte do cardápio de lanchonetes e restaurantes de todo País (em diferentes versões, é claro) e pode ser encontrado Brasil afora."
+
+        food_name2_4.innerText = "Bolovo"
+        food_img2_4.src = "https://img.itdg.com.br/tdg/images/recipes/000/199/322/308243/308243_original.jpg"
+        food_desc2_4.innerText = "Uma missão quase impossível é encontrar o famoso bolovo fora de São Paulo. O bolovo é simplesmente um bolinho de carne moída recheado com um ovo cozido inteiro."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773123.4374115462!2d-50.880025451378756!3d-22.553250446881403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1638976841787!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "São Paulo tem estações com características bem definidas, o que ajuda na hora de escolher o clima e tempo que mais te agrada. A cidade está localizada em uma zona de clima subtropical úmido, com características que definem um inverno frio e seco, que em regiões ao sul do estado, a temperatura pode chegar a 18ºC em média, com enorme incidência de chuva."
+
+        travel_desc2.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$163, alémde hospedagem e atrações turísticas, e a duração do voo pode variar entre 1h40 e 6h dependendo do local de embarque."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Rio de Janeiro"
+        statetxt3.innerText = "O Rio de Janeiro é um estado no sudeste do Brasil. A sua capital, com o mesmo nome, é conhecida pelas praias, o Pão de Açúcar e a estátua do Cristo Redentor no cimo do morro do Corcovado. O ponto de referência do arquiteto Oscar Niemeyer, o Museu de Arte Contemporânea de Niterói, fica do lado oposto da Baía de Guanabara, em Niterói. Ao longo da costa atlântica do estado, encontra-se Ilha Grande, uma ilha arborizada rodeada de praias, e a cidade colonial de Paraty."
+        state_img3.src = "https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg"
+
+        food_name3_1.innerText = "Feijoada"
+        food_img3_1.src = "https://img.cybercook.com.br/imagens/receitas/991/feijoada-carioca.jpeg"
+        food_desc3_1.innerText = "A feijoada carioca é conhecida por ingredientes como feijão preto e diversas partes do porco. O prato fica ainda mais gostoso acompanhado de couve refogada caprichada, farofinha feita na hora e arroz branco."
+
+        food_name3_2.innerText = "Bolinho de Bacalhau"
+        food_img3_2.src = "https://receitasmais.com.br/wp-content/uploads/2013/03/Bolinho-de-bacalhau.jpg"
+        food_desc3_2.innerText = "A massa do bolinho conta com batata e cheiro-verde, que dão aquele toque na textura e no sabor do salgado. Tudo pode ficar ainda mais gostoso se você servir esse aperitivo acompanhado de algumas gotinhas de azeite."
+
+        food_name3_3.innerText = "Biscoito Globo"
+        food_img3_3.src = "https://ogimg.infoglobo.com.br/in/19923793-52b-4f7/FT1086A/xglobo.jpg.pagespeed.ic.EG7ao22IEF.jpg"
+        food_desc3_3.innerText = "Levinho, crocante e delicioso, o biscoito Globo tem esse nome em homenagem à padaria onde era feito. Nas terras cariocas, você pode encontrá-lo na versão salgada ou doce."
+
+        food_name3_4.innerText = "Filé à Oswaldo Aranha"
+        food_img3_4.src = "https://www.papodebar.com/wp-content/uploads/2012/11/file-oswaldo-aranha.jpg"
+        food_desc3_4.innerText = "O nome da receita foi dado em homenagem ao político Oswaldo Aranha, que ia sempre a um restaurante na Lapa e pedia o mesmo prato: um filé temperado com alho frito acompanhado de batatas portuguesas, farofa de ovo e arroz soltinho."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786720.626764539!2d-45.16779367556124!3d-22.050767463332168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x981894cae28ac3%3A0x349c31ac10583d0!2sRio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1639146625233!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima no Rio de Janeiro, é tropical, quente e úmido, com variações locais, devido às diferenças de altitude, vegetação e proximidade do oceano; a temperatura média anual é de 22º centígrados, mesmo assim, seu inverno pode contar com temperaturas abaixo de 20ºC. As chuvas variam de 1.200 a 1.800 mm anuais"
+
+        travel_desc3.innerText = "O gasto total de uma viagem seria em cerca de R$ 2.181,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
         
     } else if(fregiao == 8 && fclima == 4) {
-        
+        place1txt.innerText = "São Paulo"
+        statetxt1.innerText = "São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste, Paraná a sul, Rio de Janeiro a leste e Mato Grosso do Sul a oeste, além do Oceano Atlântico a sudeste."
+        state_img1.src = "https://exame.com/wp-content/uploads/2019/10/sc3a3o-paulo-1.jpg"
+
+        food_name1_1.innerText = "Virado à Paulista"
+        food_img1_1.src = "https://img.itdg.com.br/tdg/images/recipes/000/026/749/355376/355376_original.jpg"
+        food_desc1_1.innerText = "É um prato típico do estado brasileiro de São Paulo, onde também é conhecido como Virado à Paulista. Foi criado na época das entradas, bandeiras e monções, no Brasil Colônia. Há várias combinações do prato em torno do básico de bisteca de porco, banana frita, feijão mulatinho virado com farinha de mandioca, arroz, couve e ovo frito."
+
+        food_name1_2.innerText = "Cuscuz à paulista"
+        food_img1_2.src = "https://img.itdg.com.br/tdg/images/recipes/000/061/325/325758/325758_original.jpg"
+        food_desc1_2.innerText = "Muito popular no Nordeste, o cuscuz tem origem árabe e é uma das mais importantes receitas de São Paulo. É uma refeição simples e muito saborosa, que consiste basicamente em uma massa de milho cozida no vapor. Já no cuscuz à paulista, o prato recebe recheios variados, que podem ser carnes, peixes, frangos ou outras combinações que agradem o paladar."
+
+        food_name1_3.innerText = "Bauru"
+        food_img1_3.src = "http://dicas.guiamais.com.br/wp-content/uploads/2012/04/lanche-bauru.jpg"
+        food_desc1_3.innerText = "Esta comida paulista foi criada na cidade de Bauru, interior de São Paulo. Ele já faz parte do cardápio de lanchonetes e restaurantes de todo País (em diferentes versões, é claro) e pode ser encontrado Brasil afora."
+
+        food_name1_4.innerText = "Bolovo"
+        food_img1_4.src = "https://img.itdg.com.br/tdg/images/recipes/000/199/322/308243/308243_original.jpg"
+        food_desc1_4.innerText = "Uma missão quase impossível é encontrar o famoso bolovo fora de São Paulo. O bolovo é simplesmente um bolinho de carne moída recheado com um ovo cozido inteiro."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773123.4374115462!2d-50.880025451378756!3d-22.553250446881403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1638976841787!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "São Paulo tem estações com características bem definidas, o que ajuda na hora de escolher o clima e tempo que mais te agrada. A cidade está localizada em uma zona de clima subtropical úmido, com características que definem um inverno frio e seco, enquanto o verão é bem quente e úmido, com enorme incidência de chuva."
+
+        travel_desc1.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$163, alémde hospedagem e atrações turísticas, e a duração do voo pode variar entre 1h40 e 6h dependendo do local de embarque."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Minas Gerais"
+        statetxt2.innerText = "Minas Gerais, um grande estado continental no sudeste do Brasil, é conhecido por cidades da era colonial que remetem à corrida do ouro no país no século 18. Entre elas estão São João del Rei, Tiradentes e Ouro Preto, a antiga capital, todas com ruas de paralelepípedo, mansões ornamentadas e igrejas barrocas decoradas pelo escultor Aleijadinho.O famoso trem a vapor Maria Fumaça liga Tiradentes a São João del Rei."
+        state_img2.src = "https://content.presspage.com/uploads/685/c1920_tiradentesminasgeraisbrazil-2.jpg"
+
+        food_name2_1.innerText = "Frango com Quiabo"
+        food_img2_1.src = "https://tecnonoticias.com.br/blogs/cozinhafacil/wp-content/uploads/2020/07/frango-com-quiabo2.jpeg"
+        food_desc2_1.innerText = "A mistura desses dois ingredientes rende um dos pratos mais clássicos para os mineiros, feito a partir de um ensopado de frango caipira. Afirma-se que o sabor “original” dessa receita só é possível com a utilização desse tipo de frango, pois o frango industrializado acaba tirando toda a essência do autêntico frango com quiabo."
+
+        food_name2_2.innerText = "Tutu"
+        food_img2_2.src = "https://www.visiteobrasil.com.br/galerias/carac8-minas-gerais-tutu-a-mineira/587-112453-culinaria-mineira-tutu-a-mineira-foto-divulgacaogr.jpg"
+        food_desc2_2.innerText = "O feijão, um dos ingredientes mais importantes para os mineiros, se transforma no saboroso tutu quando é cozido, temperado, batido e misturado com farinha de milho ou de mandioca. Adquire uma consistência mais pastosa e pode ganhar o adicional de torresmo, bacon ou ovos cozidos."
+
+        food_name2_3.innerText = "Feijão Tropeiro"
+        food_img2_3.src = "https://simplelivingrecipes.com/wp-content/uploads/2019/06/Feijao-Tropeiro-1.jpeg"
+        food_desc2_3.innerText = "Mais uma vez, o feijão estrela uma das receitas mais tradicionais de Minas Gerais, em um prato que surgiu com os tropeiros, que misturavam farinha, carne e ovos ao feijão. O resultado é uma iguaria com sabor único, que está presente em larga escala pelos restaurantes dos mais de 800 municípios mineiros."
+
+        food_name2_4.innerText = "Leitão a Pururuca"
+        food_img2_4.src = "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-leitao-pururuca.jpg"
+        food_desc2_4.innerText = "Para que se prepare um leitão a pururuca, é necessário empregar muita técnica. O porco deve ser assado com pele e, logo após esse procedimento, deve-se passar gelo em toda sua superfície para, então, jogar óleo muito quente sobre ela. Quando bem feita, o resultado dessa técnica é uma pele fritinha, cheia de bolhas e que fica crocante."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7747774.534855807!2d-49.94785049282104!3d-18.524697480011483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690a165324289%3A0x112170c9379de7b3!2sMinas%20Gerais!5e0!3m2!1spt-BR!2sbr!4v1639138637724!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "No Território mineiro o clima que predomina é o tropical de altitude, além de apresentar o tropical. O clima tropical se apresenta nas áreas mais baixas, a temperatura nessa região oscila entre 22 e 23ºC com duas estações bem definidas, com verões chuvosos e invernos secos."
+
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Minas Gerais varia em média de R$ 500 à R$ 850 dependendo da companhia aérea e outras variantes como horário, paradas ou tipo de viagem."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Rio de Janeiro"
+        statetxt3.innerText = "O Rio de Janeiro é um estado no sudeste do Brasil. A sua capital, com o mesmo nome, é conhecida pelas praias, o Pão de Açúcar e a estátua do Cristo Redentor no cimo do morro do Corcovado. O ponto de referência do arquiteto Oscar Niemeyer, o Museu de Arte Contemporânea de Niterói, fica do lado oposto da Baía de Guanabara, em Niterói. Ao longo da costa atlântica do estado, encontra-se Ilha Grande, uma ilha arborizada rodeada de praias, e a cidade colonial de Paraty."
+        state_img3.src = "https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg"
+
+        food_name3_1.innerText = "Feijoada"
+        food_img3_1.src = "https://img.cybercook.com.br/imagens/receitas/991/feijoada-carioca.jpeg"
+        food_desc3_1.innerText = "A feijoada carioca é conhecida por ingredientes como feijão preto e diversas partes do porco. O prato fica ainda mais gostoso acompanhado de couve refogada caprichada, farofinha feita na hora e arroz branco."
+
+        food_name3_2.innerText = "Bolinho de Bacalhau"
+        food_img3_2.src = "https://receitasmais.com.br/wp-content/uploads/2013/03/Bolinho-de-bacalhau.jpg"
+        food_desc3_2.innerText = "A massa do bolinho conta com batata e cheiro-verde, que dão aquele toque na textura e no sabor do salgado. Tudo pode ficar ainda mais gostoso se você servir esse aperitivo acompanhado de algumas gotinhas de azeite."
+
+        food_name3_3.innerText = "Biscoito Globo"
+        food_img3_3.src = "https://ogimg.infoglobo.com.br/in/19923793-52b-4f7/FT1086A/xglobo.jpg.pagespeed.ic.EG7ao22IEF.jpg"
+        food_desc3_3.innerText = "Levinho, crocante e delicioso, o biscoito Globo tem esse nome em homenagem à padaria onde era feito. Nas terras cariocas, você pode encontrá-lo na versão salgada ou doce."
+
+        food_name3_4.innerText = "Filé à Oswaldo Aranha"
+        food_img3_4.src = "https://www.papodebar.com/wp-content/uploads/2012/11/file-oswaldo-aranha.jpg"
+        food_desc3_4.innerText = "O nome da receita foi dado em homenagem ao político Oswaldo Aranha, que ia sempre a um restaurante na Lapa e pedia o mesmo prato: um filé temperado com alho frito acompanhado de batatas portuguesas, farofa de ovo e arroz soltinho."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786720.626764539!2d-45.16779367556124!3d-22.050767463332168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x981894cae28ac3%3A0x349c31ac10583d0!2sRio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1639146625233!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima no Rio de Janeiro, é tropical, quente e úmido, com variações locais, devido às diferenças de altitude, vegetação e proximidade do oceano; a temperatura média anual é de 22º centígrados, com médias diárias elevadas no verão (de 30º a 32º); as chuvas variam de 1.200 a 1.800 mm anuais"
+
+        travel_desc3.innerText = "O gasto total de uma viagem seria em cerca de R$ 2.181,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 9 && fclima == 1) {
-        
+        place1txt.innerText = "Santa Catarina"
+        statetxt1.innerText = "Santa Catarina é um estado na região sul do Brasil. Com uma longa costa com o Atlântico e muitas ilhas, ela é conhecida por suas praias e montanhas. Florianópolis, a capital, tem um mercado público tradicional com bares, restaurantes e barracas de comida, além de um museu histórico instalado em um palácio do governo colonial do século 19. Florianópolis está basicamente na ilha de Santa Catarina, que conta com resorts de praia na extremidade norte."
+        state_img1.src = "http://hotelbavarium.com.br/wp-content/uploads/2019/12/Parque-Unipraias.jpg"
+
+        food_name1_1.innerText = "Polenta no Fio"
+        food_img1_1.src = "https://cafeviagem.com/wp-content/uploads/2020/09/receita-polenta-serra-gaucha-4.jpg"
+        food_desc1_1.innerText = "A polenta é uma refeição trazida pelos italianos e que ficou bastante popular no sul do país em função dos colonos vindos de lá e se instalaram no estado. Diferente da maioria dos demais locais do Brasil, no sul a polenta é mais firme, cozida por mais tempo. Inclusive, ganhou esse nome pois dizem que ela pode ser cortada com um fio de algodão."
+
+        food_name1_2.innerText = "Pirão de Farinha de Mandioca"
+        food_img1_2.src = "https://media.gazetadopovo.com.br/bomgourmet/2017/08/pirao-nacional-5e6438d0.jpg"
+        food_desc1_2.innerText = "A cultura cabocla deixou as primeiras contribuições tanto de ingredientes quanto de técnicas para a culinária catarinense, um deles foi o costume de comer mandioca. O delicioso pirão de farinha de mandioca é um tradicional acompanhamento de pratos com frutos do mar no estado, que é o encontro dessa herança indígena com a açoriana."
+
+        food_name1_3.innerText = "Joelho de Porco (Eisbein)"
+        food_img1_3.src = "https://receitasnotadez.com.br/wp-content/uploads/2020/03/512356000-612x612-1.jpg"
+        food_desc1_3.innerText = "O joelho de porco é um prato em que essa parte da perna dianteira do animal é servido como o ingrediente principal, assado por horas, e acompanhado de especiarias. É tradicionalmente apresentado com chucrute. Por sua popularidade, essa refeição é facilmente encontrada nos restaurantes locais."
+
+        food_name1_4.innerText = "Churrasco e Chimarrão"
+        food_img1_4.src = "https://i.pinimg.com/originals/fd/04/30/fd0430fc04625472a73ae994ea228343.jpg"
+        food_desc1_4.innerText = "Em virtude da proximidade com o Rio Grande do Sul, a culinária catarinense também recebeu forte influência gaúcha. Portanto é comum encontrar ótimas churrascarias espalhadas pelo estado. Além disso, uma das bebidas preferidas do povo da região é o chimarrão, também herança dos vizinhos."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619414.3323212015!2d-53.32679246287408!3d-27.637388274056953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1639143958280!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "O clima do estado é muito influenciado pelas massas de ar polares e intertropicais, a temperatura média das regiões litorâneas é de 18°C a 20°C. Na costa do Estado, as temperaturas são mais amenas, a capital Florianópolis, por exemplo, tem variações entre 20°C e 29°C no verão."
+
+        travel_desc1.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$562 (ida e volta), e a duração do voo pode variar entre 1h40 e 4h dependendo do local de embarque."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Paraná"
+        statetxt2.innerText = "Paraná é um estado no sul do Brasil que alberga as Cataratas do Iguaçu, com centenas de cascatas que se estendem ao longo da fronteira com a Argentina. Em torno das cataratas encontra-se o Parque Nacional do Iguaçu, uma floresta subtropical com diversas espécies selvagens, enquanto no norte se encontra a enorme barragem de Itaipu. Centenas de quilómetros a este, perto das praias atlânticas de Guaratuba e do grande porto de Paranaguá, fica a frondosa capital do estado, Curitiba."
+        state_img2.src = "https://www.temporadalivre.com/blog-media/posts/cover/10083/os-principais-pontos-turisticos-do-parana-9124315e.jpg"
+
+        food_name2_1.innerText = "Barreado"
+        food_img2_1.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/barreado.png"
+        food_desc2_1.innerText = "O barreado segue o ritual de cozinhar a carne por muitas horas numa panela de barro lacrada com farinha. Era preparado pelos caboclos e pescadores durante as festividades do carnaval, ou servir os tropeiros de passagem pela região, ou ainda para alimentar quem participava dos mutirões para construção de espaços públicos."
+
+        food_name2_2.innerText = "Carne de Onça"
+        food_img2_2.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/carnedeonca.png"
+        food_desc2_2.innerText = "O emblemático prato curitibano faz sucesso e desperta muita curiosidade pelo nome, mas ao contrário do que sugere é preparado com carne crua bovina e não de felino. A origem do nome é desconhecida, provavelmente foi atribuída pelo hálito resultante da ingestão da carne com temperos e cebola crua utilizada no preparo."
+
+        food_name2_3.innerText = "Pachola"
+        food_img2_3.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pachola.png"
+        food_desc2_3.innerText = "O nome é peculiar, porém o preparo da Pachola é muito simples: 'arroz solto com frango refogado, que leva diversos condimentos'. O prato é servido anualmente no sábado seguinte à sexta-feira da Paixão."
+
+        food_name2_4.innerText = "Pierogi"
+        food_img2_4.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pierogi.png"
+        food_desc2_4.innerText = "O pequeno pastel, em formato de meia-lua, que lembra o ravióli italiano, é muito comum no Paraná. Chamado de pierogi, pirogue, pierog, perohê ou varenike (são muitas as denominações e variações) comumente é servido cozido, frito ou assado e recheado com ricota e batata."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7432471.978817971!2d-55.816375603025236!3d-24.549937469674937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db0b9430b8629d%3A0xe893fd5063cef061!2zUGFyYW7DoQ!5e0!3m2!1spt-BR!2sbr!4v1639145496685!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "O clima do Paraná encontra-se dividido em subtropical e tropical. O clima tropical ocorre na bacia do Paraná e no litoral. O subtropical Cfb, com verões suaves, possui grande distribuição anual de chuvas (1 200 mm) e médias térmicas por volta dos 17º C por ano."
+
+        travel_desc2.innerText = "O gasto total de uma viagem confortável de quatro dias seria em cerca de R$ 1.800,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Rio Grande do Sul"
+        statetxt3.innerText = "Rio Grande do Sul é o estado mais a sul do Brasil e faz fronteira com a Argentina e o Uruguai. A nordeste, a montanhosa Serra Gaúcha alberga a região vinícola do Vale dos Vinhedos e inclui cidades turísticas de estilo alemão como Gramado e Canela, famosas pelas paisagens naturais pitorescas. Porto Alegre, a capital, é um grande porto com estruturas clássicas como o Mercado Público e a Catedral Metropolitana, no centro histórico."
+        state_img3.src = "https://mapadomundo.org/wp-content/uploads/2016/12/Missoes_iStock.jpg"
+
+        food_name3_1.innerText = "Tainha Assada"
+        food_img3_1.src = "https://ceoagro.com.br/wp-content/uploads/2019/07/tainha-assada1.jpg"
+        food_desc3_1.innerText = "Essa é uma receita bastante famosa e consumida principalmente nas festividades para Nossa Senhora dos Navegantes e na Festa do Mar, que ocorrem no estado. Normalmente ela é feita na brasa, presa em uma espécie de bambu-taquara."
+
+        food_name3_2.innerText = "Galeto na Brasa"
+        food_img3_2.src = "https://exame.com/wp-content/uploads/2020/12/Galetos-1.jpg"
+        food_desc3_2.innerText = "O prato, que teve forte influência italiana, é servido em várias galeterias pelo estado todo. Sempre assado na brasa, depois de ter passado várias horas marinando em um tempero especial. Normalmente os restaurantes servem o galeto acompanhado de uma boa sopa de capeletti, salada de batata e até mesmo polenta frita."
+
+        food_name3_3.innerText = "Pinhão"
+        food_img3_3.src = "https://www.jornaldocomercio.com/_midias/jpg/2021/05/07/pinhao_6847dbca_af4e_11eb_b1a8_eec3a079c8c5-9311452.jpg"
+        food_desc3_3.innerText = "O Rio Grande do Sul é um dos maiores produtores de pinhão. Além disso, os gaúchos amam esse ingrediente. Mesmo sendo consumido em outras partes da região sul, o pinhão também é um prato muito característico do Rio Grande."
+
+        food_name3_4.innerText = "Entrevero"
+        food_img3_4.src = "https://fuiporaiblog.com/wp-content/uploads/2020/04/entrevero.jpg"
+        food_desc3_4.innerText = "O entrevero é uma delícia e muito consumido em outras partes da região sul. O prato pode ser feito com vários ingredientes, como carne de porco, coração de frango, bacon e até mesmo com pinhão. A receita é basicamente uma mistura de carnes cozidas com alguns legumes, servido com acompanhamentos como arroz branco e purê de batatas."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7051933.010636368!2d-58.16318989122311!3d-30.341664782596514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1639147318696!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "Devido à sua posição geográfica, o estado apresenta grandes diferenças em relação ao Brasil. A latitude reforça as influências das massas de ar oriundas da região Polar e das zonas Tropical Continental e Atlântica. As temperaturas apresentam grande variação sazonal, com verões quentes e invernos bastante rigorosos, com a ocorrência de geadas e precipitação eventual de neve. As temperaturas médias variam entre 15° e 18°C, com máximas de 40°C."
+
+        travel_desc3.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço com quatro diárias é por volta de R$89, fora atrações turísticas que você poderá encontrar. A duração do voo pode variar entre 1h43 e 8h dependendo do local de embarque."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 9 && fclima == 2) {
-        
+        place1txt.innerText = "Rio Grande do Sul"
+        statetxt1.innerText = "Rio Grande do Sul é o estado mais a sul do Brasil e faz fronteira com a Argentina e o Uruguai. A nordeste, a montanhosa Serra Gaúcha alberga a região vinícola do Vale dos Vinhedos e inclui cidades turísticas de estilo alemão como Gramado e Canela, famosas pelas paisagens naturais pitorescas. Porto Alegre, a capital, é um grande porto com estruturas clássicas como o Mercado Público e a Catedral Metropolitana, no centro histórico."
+        state_img1.src = "https://mapadomundo.org/wp-content/uploads/2016/12/Missoes_iStock.jpg"
+
+        food_name1_1.innerText = "Tainha Assada"
+        food_img1_1.src = "https://ceoagro.com.br/wp-content/uploads/2019/07/tainha-assada1.jpg"
+        food_desc1_1.innerText = "Essa é uma receita bastante famosa e consumida principalmente nas festividades para Nossa Senhora dos Navegantes e na Festa do Mar, que ocorrem no estado. Normalmente ela é feita na brasa, presa em uma espécie de bambu-taquara."
+
+        food_name1_2.innerText = "Galeto na Brasa"
+        food_img1_2.src = "https://exame.com/wp-content/uploads/2020/12/Galetos-1.jpg"
+        food_desc1_2.innerText = "O prato, que teve forte influência italiana, é servido em várias galeterias pelo estado todo. Sempre assado na brasa, depois de ter passado várias horas marinando em um tempero especial. Normalmente os restaurantes servem o galeto acompanhado de uma boa sopa de capeletti, salada de batata e até mesmo polenta frita."
+
+        food_name1_3.innerText = "Pinhão"
+        food_img1_3.src = "https://www.jornaldocomercio.com/_midias/jpg/2021/05/07/pinhao_6847dbca_af4e_11eb_b1a8_eec3a079c8c5-9311452.jpg"
+        food_desc1_3.innerText = "O Rio Grande do Sul é um dos maiores produtores de pinhão. Além disso, os gaúchos amam esse ingrediente. Mesmo sendo consumido em outras partes da região sul, o pinhão também é um prato muito característico do Rio Grande."
+
+        food_name1_4.innerText = "Entrevero"
+        food_img1_4.src = "https://fuiporaiblog.com/wp-content/uploads/2020/04/entrevero.jpg"
+        food_desc1_4.innerText = "O entrevero é uma delícia e muito consumido em outras partes da região sul. O prato pode ser feito com vários ingredientes, como carne de porco, coração de frango, bacon e até mesmo com pinhão. A receita é basicamente uma mistura de carnes cozidas com alguns legumes, servido com acompanhamentos como arroz branco e purê de batatas."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7051933.010636368!2d-58.16318989122311!3d-30.341664782596514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1639147318696!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "Devido à sua posição geográfica, o estado apresenta grandes diferenças em relação ao Brasil. A latitude reforça as influências das massas de ar oriundas da região Polar e das zonas Tropical Continental e Atlântica. As temperaturas apresentam grande variação sazonal, com verões quentes e invernos bastante rigorosos, com a ocorrência de geadas e precipitação eventual de neve. As temperaturas médias variam entre 15° e 18°C, com mínimas de até -10°C."
+
+        travel_desc1.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço com quatro diárias é por volta de R$89, fora atrações turísticas que você poderá encontrar. A duração do voo pode variar entre 1h43 e 8h dependendo do local de embarque."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Paraná"
+        statetxt2.innerText = "Paraná é um estado no sul do Brasil que alberga as Cataratas do Iguaçu, com centenas de cascatas que se estendem ao longo da fronteira com a Argentina. Em torno das cataratas encontra-se o Parque Nacional do Iguaçu, uma floresta subtropical com diversas espécies selvagens, enquanto no norte se encontra a enorme barragem de Itaipu. Centenas de quilómetros a este, perto das praias atlânticas de Guaratuba e do grande porto de Paranaguá, fica a frondosa capital do estado, Curitiba."
+        state_img2.src = "https://www.temporadalivre.com/blog-media/posts/cover/10083/os-principais-pontos-turisticos-do-parana-9124315e.jpg"
+
+        food_name2_1.innerText = "Barreado"
+        food_img2_1.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/barreado.png"
+        food_desc2_1.innerText = "O barreado segue o ritual de cozinhar a carne por muitas horas numa panela de barro lacrada com farinha. Era preparado pelos caboclos e pescadores durante as festividades do carnaval, ou servir os tropeiros de passagem pela região, ou ainda para alimentar quem participava dos mutirões para construção de espaços públicos."
+
+        food_name2_2.innerText = "Carne de Onça"
+        food_img2_2.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/carnedeonca.png"
+        food_desc2_2.innerText = "O emblemático prato curitibano faz sucesso e desperta muita curiosidade pelo nome, mas ao contrário do que sugere é preparado com carne crua bovina e não de felino. A origem do nome é desconhecida, provavelmente foi atribuída pelo hálito resultante da ingestão da carne com temperos e cebola crua utilizada no preparo."
+
+        food_name2_3.innerText = "Pachola"
+        food_img2_3.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pachola.png"
+        food_desc2_3.innerText = "O nome é peculiar, porém o preparo da Pachola é muito simples: 'arroz solto com frango refogado, que leva diversos condimentos'. O prato é servido anualmente no sábado seguinte à sexta-feira da Paixão."
+
+        food_name2_4.innerText = "Pierogi"
+        food_img2_4.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pierogi.png"
+        food_desc2_4.innerText = "O pequeno pastel, em formato de meia-lua, que lembra o ravióli italiano, é muito comum no Paraná. Chamado de pierogi, pirogue, pierog, perohê ou varenike (são muitas as denominações e variações) comumente é servido cozido, frito ou assado e recheado com ricota e batata."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7432471.978817971!2d-55.816375603025236!3d-24.549937469674937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db0b9430b8629d%3A0xe893fd5063cef061!2zUGFyYW7DoQ!5e0!3m2!1spt-BR!2sbr!4v1639145496685!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "O clima do Paraná encontra-se dividido em subtropical e tropical. O clima tropical ocorre na bacia do Paraná e no litoral. O subtropical Cfb, com verões suaves, possui grande distribuição anual de chuvas (1 200 mm) e médias térmicas por volta dos 17º C por ano."
+
+        travel_desc2.innerText = "O gasto total de uma viagem confortável de quatro dias seria em cerca de R$ 1.800,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Santa Catarina"
+        statetxt3.innerText = "Santa Catarina é um estado na região sul do Brasil. Com uma longa costa com o Atlântico e muitas ilhas, ela é conhecida por suas praias e montanhas. Florianópolis, a capital, tem um mercado público tradicional com bares, restaurantes e barracas de comida, além de um museu histórico instalado em um palácio do governo colonial do século 19. Florianópolis está basicamente na ilha de Santa Catarina, que conta com resorts de praia na extremidade norte."
+        state_img3.src = "http://hotelbavarium.com.br/wp-content/uploads/2019/12/Parque-Unipraias.jpg"
+
+        food_name3_1.innerText = "Polenta no Fio"
+        food_img3_1.src = "https://cafeviagem.com/wp-content/uploads/2020/09/receita-polenta-serra-gaucha-4.jpg"
+        food_desc3_1.innerText = "A polenta é uma refeição trazida pelos italianos e que ficou bastante popular no sul do país em função dos colonos vindos de lá e se instalaram no estado. Diferente da maioria dos demais locais do Brasil, no sul a polenta é mais firme, cozida por mais tempo. Inclusive, ganhou esse nome pois dizem que ela pode ser cortada com um fio de algodão."
+
+        food_name3_2.innerText = "Pirão de Farinha de Mandioca"
+        food_img3_2.src = "https://media.gazetadopovo.com.br/bomgourmet/2017/08/pirao-nacional-5e6438d0.jpg"
+        food_desc3_2.innerText = "A cultura cabocla deixou as primeiras contribuições tanto de ingredientes quanto de técnicas para a culinária catarinense, um deles foi o costume de comer mandioca. O delicioso pirão de farinha de mandioca é um tradicional acompanhamento de pratos com frutos do mar no estado, que é o encontro dessa herança indígena com a açoriana."
+
+        food_name3_3.innerText = "Joelho de Porco (Eisbein)"
+        food_img3_3.src = "https://receitasnotadez.com.br/wp-content/uploads/2020/03/512356000-612x612-1.jpg"
+        food_desc3_3.innerText = "O joelho de porco é um prato em que essa parte da perna dianteira do animal é servido como o ingrediente principal, assado por horas, e acompanhado de especiarias. É tradicionalmente apresentado com chucrute. Por sua popularidade, essa refeição é facilmente encontrada nos restaurantes locais."
+
+        food_name3_4.innerText = "Churrasco e Chimarrão"
+        food_img3_4.src = "https://i.pinimg.com/originals/fd/04/30/fd0430fc04625472a73ae994ea228343.jpg"
+        food_desc3_4.innerText = "Em virtude da proximidade com o Rio Grande do Sul, a culinária catarinense também recebeu forte influência gaúcha. Portanto é comum encontrar ótimas churrascarias espalhadas pelo estado. Além disso, uma das bebidas preferidas do povo da região é o chimarrão, também herança dos vizinhos."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619414.3323212015!2d-53.32679246287408!3d-27.637388274056953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1639143958280!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima do estado é muito influenciado pelas massas de ar polares e intertropicais, a temperatura média das regiões litorâneas é de 18°C a 20°C. Na costa do Estado, as temperaturas são mais amenas, a capital Florianópolis, por exemplo, tem variações entre 20°C e 29°C no verão."
+
+        travel_desc3.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$562 (ida e volta), e a duração do voo pode variar entre 1h40 e 4h dependendo do local de embarque."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 9 && fclima == 3) {
-        
+        place1txt.innerText = "Rio Grande do Sul"
+        statetxt1.innerText = "Rio Grande do Sul é o estado mais a sul do Brasil e faz fronteira com a Argentina e o Uruguai. A nordeste, a montanhosa Serra Gaúcha alberga a região vinícola do Vale dos Vinhedos e inclui cidades turísticas de estilo alemão como Gramado e Canela, famosas pelas paisagens naturais pitorescas. Porto Alegre, a capital, é um grande porto com estruturas clássicas como o Mercado Público e a Catedral Metropolitana, no centro histórico."
+        state_img1.src = "https://mapadomundo.org/wp-content/uploads/2016/12/Missoes_iStock.jpg"
+
+        food_name1_1.innerText = "Tainha Assada"
+        food_img1_1.src = "https://ceoagro.com.br/wp-content/uploads/2019/07/tainha-assada1.jpg"
+        food_desc1_1.innerText = "Essa é uma receita bastante famosa e consumida principalmente nas festividades para Nossa Senhora dos Navegantes e na Festa do Mar, que ocorrem no estado. Normalmente ela é feita na brasa, presa em uma espécie de bambu-taquara."
+
+        food_name1_2.innerText = "Galeto na Brasa"
+        food_img1_2.src = "https://exame.com/wp-content/uploads/2020/12/Galetos-1.jpg"
+        food_desc1_2.innerText = "O prato, que teve forte influência italiana, é servido em várias galeterias pelo estado todo. Sempre assado na brasa, depois de ter passado várias horas marinando em um tempero especial. Normalmente os restaurantes servem o galeto acompanhado de uma boa sopa de capeletti, salada de batata e até mesmo polenta frita."
+
+        food_name1_3.innerText = "Pinhão"
+        food_img1_3.src = "https://www.jornaldocomercio.com/_midias/jpg/2021/05/07/pinhao_6847dbca_af4e_11eb_b1a8_eec3a079c8c5-9311452.jpg"
+        food_desc1_3.innerText = "O Rio Grande do Sul é um dos maiores produtores de pinhão. Além disso, os gaúchos amam esse ingrediente. Mesmo sendo consumido em outras partes da região sul, o pinhão também é um prato muito característico do Rio Grande."
+
+        food_name1_4.innerText = "Entrevero"
+        food_img1_4.src = "https://fuiporaiblog.com/wp-content/uploads/2020/04/entrevero.jpg"
+        food_desc1_4.innerText = "O entrevero é uma delícia e muito consumido em outras partes da região sul. O prato pode ser feito com vários ingredientes, como carne de porco, coração de frango, bacon e até mesmo com pinhão. A receita é basicamente uma mistura de carnes cozidas com alguns legumes, servido com acompanhamentos como arroz branco e purê de batatas."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7051933.010636368!2d-58.16318989122311!3d-30.341664782596514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1639147318696!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "Devido à sua posição geográfica, o estado apresenta grandes diferenças em relação ao Brasil. A latitude reforça as influências das massas de ar oriundas da região Polar e das zonas Tropical Continental e Atlântica. As temperaturas apresentam grande variação sazonal, com verões quentes e invernos bastante rigorosos, com a ocorrência de geadas e precipitação eventual de neve. As temperaturas médias variam entre 15° e 18°C, com mínimas de até -10°C."
+
+        travel_desc1.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço com quatro diárias é por volta de R$89, fora atrações turísticas que você poderá encontrar. A duração do voo pode variar entre 1h43 e 8h dependendo do local de embarque."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Santa Catarina"
+        statetxt2.innerText = "Santa Catarina é um estado na região sul do Brasil. Com uma longa costa com o Atlântico e muitas ilhas, ela é conhecida por suas praias e montanhas. Florianópolis, a capital, tem um mercado público tradicional com bares, restaurantes e barracas de comida, além de um museu histórico instalado em um palácio do governo colonial do século 19. Florianópolis está basicamente na ilha de Santa Catarina, que conta com resorts de praia na extremidade norte."
+        state_img2.src = "http://hotelbavarium.com.br/wp-content/uploads/2019/12/Parque-Unipraias.jpg"
+
+        food_name2_1.innerText = "Polenta no Fio"
+        food_img2_1.src = "https://cafeviagem.com/wp-content/uploads/2020/09/receita-polenta-serra-gaucha-4.jpg"
+        food_desc2_1.innerText = "A polenta é uma refeição trazida pelos italianos e que ficou bastante popular no sul do país em função dos colonos vindos de lá e se instalaram no estado. Diferente da maioria dos demais locais do Brasil, no sul a polenta é mais firme, cozida por mais tempo. Inclusive, ganhou esse nome pois dizem que ela pode ser cortada com um fio de algodão."
+
+        food_name2_2.innerText = "Pirão de Farinha de Mandioca"
+        food_img2_2.src = "https://media.gazetadopovo.com.br/bomgourmet/2017/08/pirao-nacional-5e6438d0.jpg"
+        food_desc2_2.innerText = "A cultura cabocla deixou as primeiras contribuições tanto de ingredientes quanto de técnicas para a culinária catarinense, um deles foi o costume de comer mandioca. O delicioso pirão de farinha de mandioca é um tradicional acompanhamento de pratos com frutos do mar no estado, que é o encontro dessa herança indígena com a açoriana."
+
+        food_name2_3.innerText = "Joelho de Porco (Eisbein)"
+        food_img2_3.src = "https://receitasnotadez.com.br/wp-content/uploads/2020/03/512356000-612x612-1.jpg"
+        food_desc2_3.innerText = "O joelho de porco é um prato em que essa parte da perna dianteira do animal é servido como o ingrediente principal, assado por horas, e acompanhado de especiarias. É tradicionalmente apresentado com chucrute. Por sua popularidade, essa refeição é facilmente encontrada nos restaurantes locais."
+
+        food_name2_4.innerText = "Churrasco e Chimarrão"
+        food_img2_4.src = "https://i.pinimg.com/originals/fd/04/30/fd0430fc04625472a73ae994ea228343.jpg"
+        food_desc2_4.innerText = "Em virtude da proximidade com o Rio Grande do Sul, a culinária catarinense também recebeu forte influência gaúcha. Portanto é comum encontrar ótimas churrascarias espalhadas pelo estado. Além disso, uma das bebidas preferidas do povo da região é o chimarrão, também herança dos vizinhos."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619414.3323212015!2d-53.32679246287408!3d-27.637388274056953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1639143958280!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "O clima do estado é muito influenciado pelas massas de ar polares e intertropicais, a temperatura média das regiões litorâneas é de 18°C a 20°C. Na costa do Estado, as temperaturas são mais amenas, a capital Florianópolis, por exemplo, tem variações entre 20°C e 29°C no verão."
+
+        travel_desc2.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$562 (ida e volta), e a duração do voo pode variar entre 1h40 e 4h dependendo do local de embarque."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Paraná"
+        statetxt3.innerText = "Paraná é um estado no sul do Brasil que alberga as Cataratas do Iguaçu, com centenas de cascatas que se estendem ao longo da fronteira com a Argentina. Em torno das cataratas encontra-se o Parque Nacional do Iguaçu, uma floresta subtropical com diversas espécies selvagens, enquanto no norte se encontra a enorme barragem de Itaipu. Centenas de quilómetros a este, perto das praias atlânticas de Guaratuba e do grande porto de Paranaguá, fica a frondosa capital do estado, Curitiba."
+        state_img3.src = "https://www.temporadalivre.com/blog-media/posts/cover/10083/os-principais-pontos-turisticos-do-parana-9124315e.jpg"
+
+        food_name3_1.innerText = "Barreado"
+        food_img3_1.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/barreado.png"
+        food_desc3_1.innerText = "O barreado segue o ritual de cozinhar a carne por muitas horas numa panela de barro lacrada com farinha. Era preparado pelos caboclos e pescadores durante as festividades do carnaval, ou servir os tropeiros de passagem pela região, ou ainda para alimentar quem participava dos mutirões para construção de espaços públicos."
+
+        food_name3_2.innerText = "Carne de Onça"
+        food_img3_2.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/carnedeonca.png"
+        food_desc3_2.innerText = "O emblemático prato curitibano faz sucesso e desperta muita curiosidade pelo nome, mas ao contrário do que sugere é preparado com carne crua bovina e não de felino. A origem do nome é desconhecida, provavelmente foi atribuída pelo hálito resultante da ingestão da carne com temperos e cebola crua utilizada no preparo."
+
+        food_name3_3.innerText = "Pachola"
+        food_img3_3.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pachola.png"
+        food_desc3_3.innerText = "O nome é peculiar, porém o preparo da Pachola é muito simples: 'arroz solto com frango refogado, que leva diversos condimentos'. O prato é servido anualmente no sábado seguinte à sexta-feira da Paixão."
+
+        food_name3_4.innerText = "Pierogi"
+        food_img3_4.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pierogi.png"
+        food_desc3_4.innerText = "O pequeno pastel, em formato de meia-lua, que lembra o ravióli italiano, é muito comum no Paraná. Chamado de pierogi, pirogue, pierog, perohê ou varenike (são muitas as denominações e variações) comumente é servido cozido, frito ou assado e recheado com ricota e batata."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7432471.978817971!2d-55.816375603025236!3d-24.549937469674937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db0b9430b8629d%3A0xe893fd5063cef061!2zUGFyYW7DoQ!5e0!3m2!1spt-BR!2sbr!4v1639145496685!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "O clima do Paraná encontra-se dividido em subtropical e tropical. O clima tropical ocorre na bacia do Paraná e no litoral. O subtropical Cfb, com verões suaves, possui grande distribuição anual de chuvas (1 200 mm) e médias térmicas por volta dos 17º C por ano."
+
+        travel_desc3.innerText = "O gasto total de uma viagem confortável de quatro dias seria em cerca de R$ 1.800,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+
     } else if(fregiao == 9 && fclima == 4) {
-        
-    } 
-    
+        place1txt.innerText = "Paraná"
+        statetxt1.innerText = "Paraná é um estado no sul do Brasil que alberga as Cataratas do Iguaçu, com centenas de cascatas que se estendem ao longo da fronteira com a Argentina. Em torno das cataratas encontra-se o Parque Nacional do Iguaçu, uma floresta subtropical com diversas espécies selvagens, enquanto no norte se encontra a enorme barragem de Itaipu. Centenas de quilómetros a este, perto das praias atlânticas de Guaratuba e do grande porto de Paranaguá, fica a frondosa capital do estado, Curitiba."
+        state_img1.src = "https://www.temporadalivre.com/blog-media/posts/cover/10083/os-principais-pontos-turisticos-do-parana-9124315e.jpg"
+
+        food_name1_1.innerText = "Barreado"
+        food_img1_1.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/barreado.png"
+        food_desc1_1.innerText = "O barreado segue o ritual de cozinhar a carne por muitas horas numa panela de barro lacrada com farinha. Era preparado pelos caboclos e pescadores durante as festividades do carnaval, ou servir os tropeiros de passagem pela região, ou ainda para alimentar quem participava dos mutirões para construção de espaços públicos."
+
+        food_name1_2.innerText = "Carne de Onça"
+        food_img1_2.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/carnedeonca.png"
+        food_desc1_2.innerText = "O emblemático prato curitibano faz sucesso e desperta muita curiosidade pelo nome, mas ao contrário do que sugere é preparado com carne crua bovina e não de felino. A origem do nome é desconhecida, provavelmente foi atribuída pelo hálito resultante da ingestão da carne com temperos e cebola crua utilizada no preparo."
+
+        food_name1_3.innerText = "Pachola"
+        food_img1_3.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pachola.png"
+        food_desc1_3.innerText = "O nome é peculiar, porém o preparo da Pachola é muito simples: 'arroz solto com frango refogado, que leva diversos condimentos'. O prato é servido anualmente no sábado seguinte à sexta-feira da Paixão."
+
+        food_name1_4.innerText = "Pierogi"
+        food_img1_4.src = "https://www.turismo.pr.gov.br/sites/turismo/arquivos_restritos/files/imagem/2020-06/pierogi.png"
+        food_desc1_4.innerText = "O pequeno pastel, em formato de meia-lua, que lembra o ravióli italiano, é muito comum no Paraná. Chamado de pierogi, pirogue, pierog, perohê ou varenike (são muitas as denominações e variações) comumente é servido cozido, frito ou assado e recheado com ricota e batata."
+
+        map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7432471.978817971!2d-55.816375603025236!3d-24.549937469674937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db0b9430b8629d%3A0xe893fd5063cef061!2zUGFyYW7DoQ!5e0!3m2!1spt-BR!2sbr!4v1639145496685!5m2!1spt-BR!2sbr"
+
+        clima_desc1.innerText = "O clima do Paraná encontra-se dividido em subtropical e tropical. O clima tropical ocorre na bacia do Paraná e no litoral. O subtropical Cfb, com verões suaves, possui grande distribuição anual de chuvas (1 200 mm) e médias térmicas por volta dos 17º C por ano."
+
+        travel_desc1.innerText = "O gasto total de uma viagem confortável de quatro dias seria em cerca de R$ 1.800,00 por pessoa. Porém o preço pode sofrer alteração, caso a pessoa queira ficar mais dias, escolha ficar em hotéis de 4 ou 5 estrelas e várias outras coisas podem influenciar no preço total da viagem."
+
+        bigbutton1f.classList.remove('hide')
+        bigbutton1fv()
+
+        place2txt.innerText = "Santa Catarina"
+        statetxt2.innerText = "Santa Catarina é um estado na região sul do Brasil. Com uma longa costa com o Atlântico e muitas ilhas, ela é conhecida por suas praias e montanhas. Florianópolis, a capital, tem um mercado público tradicional com bares, restaurantes e barracas de comida, além de um museu histórico instalado em um palácio do governo colonial do século 19. Florianópolis está basicamente na ilha de Santa Catarina, que conta com resorts de praia na extremidade norte."
+        state_img2.src = "http://hotelbavarium.com.br/wp-content/uploads/2019/12/Parque-Unipraias.jpg"
+
+        food_name2_1.innerText = "Polenta no Fio"
+        food_img2_1.src = "https://cafeviagem.com/wp-content/uploads/2020/09/receita-polenta-serra-gaucha-4.jpg"
+        food_desc2_1.innerText = "A polenta é uma refeição trazida pelos italianos e que ficou bastante popular no sul do país em função dos colonos vindos de lá e se instalaram no estado. Diferente da maioria dos demais locais do Brasil, no sul a polenta é mais firme, cozida por mais tempo. Inclusive, ganhou esse nome pois dizem que ela pode ser cortada com um fio de algodão."
+
+        food_name2_2.innerText = "Pirão de Farinha de Mandioca"
+        food_img2_2.src = "https://media.gazetadopovo.com.br/bomgourmet/2017/08/pirao-nacional-5e6438d0.jpg"
+        food_desc2_2.innerText = "A cultura cabocla deixou as primeiras contribuições tanto de ingredientes quanto de técnicas para a culinária catarinense, um deles foi o costume de comer mandioca. O delicioso pirão de farinha de mandioca é um tradicional acompanhamento de pratos com frutos do mar no estado, que é o encontro dessa herança indígena com a açoriana."
+
+        food_name2_3.innerText = "Joelho de Porco (Eisbein)"
+        food_img2_3.src = "https://receitasnotadez.com.br/wp-content/uploads/2020/03/512356000-612x612-1.jpg"
+        food_desc2_3.innerText = "O joelho de porco é um prato em que essa parte da perna dianteira do animal é servido como o ingrediente principal, assado por horas, e acompanhado de especiarias. É tradicionalmente apresentado com chucrute. Por sua popularidade, essa refeição é facilmente encontrada nos restaurantes locais."
+
+        food_name2_4.innerText = "Churrasco e Chimarrão"
+        food_img2_4.src = "https://i.pinimg.com/originals/fd/04/30/fd0430fc04625472a73ae994ea228343.jpg"
+        food_desc2_4.innerText = "Em virtude da proximidade com o Rio Grande do Sul, a culinária catarinense também recebeu forte influência gaúcha. Portanto é comum encontrar ótimas churrascarias espalhadas pelo estado. Além disso, uma das bebidas preferidas do povo da região é o chimarrão, também herança dos vizinhos."
+
+        map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619414.3323212015!2d-53.32679246287408!3d-27.637388274056953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1639143958280!5m2!1spt-BR!2sbr"
+
+        clima_desc2.innerText = "O clima do estado é muito influenciado pelas massas de ar polares e intertropicais, a temperatura média das regiões litorâneas é de 18°C a 20°C. Na costa do Estado, as temperaturas são mais amenas, a capital Florianópolis, por exemplo, tem variações entre 20°C e 29°C no verão."
+
+        travel_desc2.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço de um voo é acima de R$562 (ida e volta), e a duração do voo pode variar entre 1h40 e 4h dependendo do local de embarque."
+
+        bigbutton2f.classList.remove('hide')
+        bigbutton2fv()
+
+        place3txt.innerText = "Rio Grande do Sul"
+        statetxt3.innerText = "Rio Grande do Sul é o estado mais a sul do Brasil e faz fronteira com a Argentina e o Uruguai. A nordeste, a montanhosa Serra Gaúcha alberga a região vinícola do Vale dos Vinhedos e inclui cidades turísticas de estilo alemão como Gramado e Canela, famosas pelas paisagens naturais pitorescas. Porto Alegre, a capital, é um grande porto com estruturas clássicas como o Mercado Público e a Catedral Metropolitana, no centro histórico."
+        state_img3.src = "https://mapadomundo.org/wp-content/uploads/2016/12/Missoes_iStock.jpg"
+
+        food_name3_1.innerText = "Tainha Assada"
+        food_img3_1.src = "https://ceoagro.com.br/wp-content/uploads/2019/07/tainha-assada1.jpg"
+        food_desc3_1.innerText = "Essa é uma receita bastante famosa e consumida principalmente nas festividades para Nossa Senhora dos Navegantes e na Festa do Mar, que ocorrem no estado. Normalmente ela é feita na brasa, presa em uma espécie de bambu-taquara."
+
+        food_name3_2.innerText = "Galeto na Brasa"
+        food_img3_2.src = "https://exame.com/wp-content/uploads/2020/12/Galetos-1.jpg"
+        food_desc1_2.innerText = "O prato, que teve forte influência italiana, é servido em várias galeterias pelo estado todo. Sempre assado na brasa, depois de ter passado várias horas marinando em um tempero especial. Normalmente os restaurantes servem o galeto acompanhado de uma boa sopa de capeletti, salada de batata e até mesmo polenta frita."
+
+        food_name3_3.innerText = "Pinhão"
+        food_img3_3.src = "https://www.jornaldocomercio.com/_midias/jpg/2021/05/07/pinhao_6847dbca_af4e_11eb_b1a8_eec3a079c8c5-9311452.jpg"
+        food_desc3_3.innerText = "O Rio Grande do Sul é um dos maiores produtores de pinhão. Além disso, os gaúchos amam esse ingrediente. Mesmo sendo consumido em outras partes da região sul, o pinhão também é um prato muito característico do Rio Grande."
+
+        food_name3_4.innerText = "Entrevero"
+        food_img3_4.src = "https://fuiporaiblog.com/wp-content/uploads/2020/04/entrevero.jpg"
+        food_desc3_4.innerText = "O entrevero é uma delícia e muito consumido em outras partes da região sul. O prato pode ser feito com vários ingredientes, como carne de porco, coração de frango, bacon e até mesmo com pinhão. A receita é basicamente uma mistura de carnes cozidas com alguns legumes, servido com acompanhamentos como arroz branco e purê de batatas."
+
+        map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7051933.010636368!2d-58.16318989122311!3d-30.341664782596514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1639147318696!5m2!1spt-BR!2sbr"
+
+        clima_desc3.innerText = "Devido à sua posição geográfica, o estado apresenta grandes diferenças em relação ao Brasil. A latitude reforça as influências das massas de ar oriundas da região Polar e das zonas Tropical Continental e Atlântica. As temperaturas apresentam grande variação sazonal, com verões quentes e invernos bastante rigorosos, com a ocorrência de geadas e precipitação eventual de neve. As temperaturas médias variam entre 15° e 18°C, com mínimas de até -10°C."
+
+        travel_desc3.innerText = "O preço da viagem pode variar de acordo com o local do destino, com o local de embarque, e com o hotel incluso no pacote. A média de preço com quatro diárias é por volta de R$89, fora atrações turísticas que você poderá encontrar. A duração do voo pode variar entre 1h43 e 8h dependendo do local de embarque."
+
+        bigbutton3f.classList.remove('hide')
+        bigbutton3fv()
+    }  
 }
 
 function setNextPicture() {
