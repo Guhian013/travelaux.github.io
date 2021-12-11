@@ -1,25 +1,54 @@
 * {
     box-sizing: border-box;
 }
-  
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .Travelaux {
-    font-size: xx-large;
+    font-size: 21px;
     font-weight: bold;
     text-align: center;
-    padding: 22px 10px 23px 35px;
+    padding: 16px;
 }
 
 .footer {
     background-color: #eef4f7;
     color: #242527;
     text-align: center;
-    height: 7cm;
-    margin-top: -10px;
 }
 
 .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center; 
-    padding-top: 25px; 
+    padding-top: 10px; 
     padding-bottom: 21px;
     font-family: 'Prata', serif;
 }
@@ -27,7 +56,7 @@
 .sub-text {
     display: block;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     padding-top: 15px; 
     font-family: 'Poppins', sans-serif;
@@ -38,23 +67,20 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: auto;
     font-weight: bold;
-    margin: 0 4cm;
     padding-top: 15px; 
     margin-bottom: 1cm;
     font-family: 'Poppins', sans-serif;
 }
 
 hr { 
-    display: block;
-    margin-top: 2px;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin: -10px 5cm 0 5cm;
     border-style: inset;
+    justify-content: center;
+    align-items: center;
     border-width: 1px;
-    width: 65%;
-    animation: linemation 2.5s ease;
 } 
 
 body {
@@ -77,11 +103,11 @@ li {
     float: right;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: #242527;
     text-align: center;
-    padding: 30px 30px 23px 0px;
+    padding: 16px;
     text-decoration: none;
     font-size: 21px;
     font-family: 'Comfortaa', cursive;
@@ -92,78 +118,69 @@ li a:hover{
     color: #35845d;
     transition: 0.4s;
 }
+
+.footer {
+    margin-top: 1cm;
+}
   
 .footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 3px;
     list-style: none;
     text-align: center;
     font-size: 18px;
-    padding-right: 8.5cm;
 }
   
 .footer li {
-    padding: 3px
+    padding: 12px;
+    font-size: 21px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
   
 .footer ul a {
-    color:inherit;
-    text-decoration:none;
+    color: inherit;
+    text-decoration: none;
     opacity: 0.8;
 }
   
 .footer ul a:hover {
-    opacity:1;
+    opacity: 1;
     color: #35845d;
 }
   
 .footer .social {
-    text-align: center;
-}
-
-.block-social {
-    display: grid;
-    background-color: #35845d;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 5px 2px 5px 2px;
-    margin-top: 45px;
-    margin-left: 14cm;
-    width: 20%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
 }
   
 .footer .social > a {
     font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
+    padding: 2px 12px;
     text-align: center;
     border-radius: 20%;
     border: 1px solid #ccc;
     margin: 0 8px;
-    color: inherit;
     opacity: 0.75;
 }
   
 .footer .social > a:hover {
-    opacity: 0.9;
+    opacity:0.9;
     color: #35845d;
 }
   
 .footer .copyright {
-    margin-top: 100px;
-    padding-bottom: 1cm;
     text-align: center;
     font-size: 17px;
+    margin-top: -1cm;
     color:rgb(0, 0, 0);
     opacity: 0.5;
 }
   
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
-
-@keyframes linemation {
-    0% {width: 0%;}
-    100% {width: 65%;}
-}
-

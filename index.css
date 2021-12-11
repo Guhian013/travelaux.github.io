@@ -38,7 +38,7 @@
 }
 
 .back-image {
-  background-image: url("Images/alain-yAu52w1lo64-unsplash.jpg");
+  background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e");
   background-color: #cccccc;
   height: 700px;
   width: 100%;
@@ -50,23 +50,16 @@
 
 .center {
     display: block;
-    padding-top: 4cm;
+    padding-top: 2cm;
     margin-left: auto;
     margin-right: auto;
-    max-width: 17%;
+    max-width: 30%;
     height: auto;
 }
 
 .w3-animate-bottom {
     position: relative;
     animation: animatelogo ease-in-out 1.7s;
-}
-
-.sitename {
-    text-align: center;
-    color: beige;
-    font-family: 'Arvo', serif;
-    animation: animatetext ease-in-out 1.7s;
 }
 
 .intro {
@@ -123,6 +116,10 @@ li {
 li a:hover{
 	transition: 0.4s;
     color: #35845d;
+}
+
+.footer {
+    margin-top: 1cm;
 }
   
 .footer ul {

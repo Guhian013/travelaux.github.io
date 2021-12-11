@@ -386,9 +386,9 @@ function verifyBlocks() {
 
         map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083987.4528746754!2d-54.620577521026256!3d1.596783970843328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1638791542883!5m2!1spt-BR!2sbr"
 
-        clima_desc1.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quaerat? Odit omnis id libero, corporis deleniti iusto tempore tenetur enim, temporibus veniam nostrum voluptate! Enim at debitis vitae officiis natus."
+        clima_desc3.innerText = "O clima do Amapá é predominantemente equatorial úmido ou tropical super úmido, devido à influência da Floresta Amazônica em seu território. Desse modo, o seu clima é marcado por altas temperaturas, e elevados índices pluviométricos."
 
-        travel_desc1.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quaerat? Odit omnis id libero, corporis deleniti iusto tempore tenetur enim, temporibus veniam nostrum voluptate! Enim at debitis vitae officiis natus."
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Amapá está em uma média de R$ 836 (atualmente) dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton1f.classList.remove('hide')
         bigbutton1fv()
@@ -542,7 +542,7 @@ function verifyBlocks() {
 	} else if(fregiao == 5 && fclima == 3) {
 		place1txt.innerText = "Amazonas"
         statetxt1.innerText = "Amazonas é um enorme estado no noroeste do Brasil, coberto quase na sua totalidade pela floresta tropical da Amazónia. A capital, Manaus, é um porto fluvial com pontos de referência que datam do ciclo da borracha de finais do século XIX, incluindo o Teatro Amazonas, uma grande casa de ópera. A cidade marca o Encontro das Águas, onde o rio Negro, de água negra, e o rio Solimões se juntam para formar o rio Amazonas."
-        state_img1.src = "https://lh3.googleusercontent.com/proxy/sWBwx3DWoW4Ke2112Qp0PG72343QcqOXQUdIGIWo5eadri7rbVUyOUtYoU8rnV2mUBSJMRKttOQ56wT1p_W_6glhJGRPiNv9cOdgK2QhT8JgWgm2CHe-UzHqGl65kEYs"
+        state_img1.src = "https://cdn.falauniversidades.com.br/wp-content/uploads/2021/04/19161129/Amazonas.jpg"
 
         food_name1_1.innerText = "Tapioca"
         food_img1_1.src = "https://www.u-amazon.com/blogs/wp-content/uploads/2021/05/3-4-1024x683.png"
@@ -562,9 +562,9 @@ function verifyBlocks() {
 
         map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16307384.704508508!2d-73.99534554581057!3d-3.745764141344254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92183f5c8b1d6ed1%3A0x176d6af66b3c2efa!2sAmazonas!5e0!3m2!1spt-BR!2sbr!4v1639057872387!5m2!1spt-BR!2sbr"
 
-        clima_desc1.innerText = "blank"
+        clima_desc1.innerText = "O clima de Amazonas é considerado tropical úmido de monção, com temperatura média compensada anual de 27 °C e umidade do ar relativamente elevada, com índice pluviométrico em torno de 2 300 milímetros (mm) anuais."
 
-        travel_desc1.innerText = "blank"
+        travel_desc1.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Manaus (Capital de Amazonas) varia em média de R$ 580 à R$ 1450 dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton1f.classList.remove('hide')
         bigbutton1fv()
@@ -620,9 +620,9 @@ function verifyBlocks() {
 
         map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8068242.876102725!2d-74.80123332555144!3d-9.102721649406758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8daa4e9106b9%3A0x25ec0ac5083607c1!2sAcre!5e0!3m2!1spt-BR!2sbr!4v1639058810496!5m2!1spt-BR!2sbr"
 
-        clima_desc3.innerText = "Blank"
+        clima_desc3.innerText = "O clima característico do Acre é o equatorial, que apresenta durante todo o ano altas temperaturas e elevada umidade."
 
-        travel_desc3.innerText = "Blank"
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Acre varia em média de R$ 753 à R$ 998 (atualmente) dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton3f.classList.remove('hide')
         bigbutton3fv()
@@ -708,9 +708,9 @@ function verifyBlocks() {
 
         map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083987.4528746754!2d-54.620577521026256!3d1.596783970843328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1638791542883!5m2!1spt-BR!2sbr"
 
-        clima_desc3.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quaerat? Odit omnis id libero, corporis deleniti iusto tempore tenetur enim, temporibus veniam nostrum voluptate! Enim at debitis vitae officiis natus."
+        clima_desc3.innerText = "O clima do Amapá é predominantemente equatorial úmido ou tropical super úmido, devido à influência da Floresta Amazônica em seu território. Desse modo, o seu clima é marcado por altas temperaturas, e elevados índices pluviométricos."
 
-        travel_desc3.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quaerat? Odit omnis id libero, corporis deleniti iusto tempore tenetur enim, temporibus veniam nostrum voluptate! Enim at debitis vitae officiis natus."
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Amapá está em uma média de R$ 836 (atualmente) dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton3f.classList.remove('hide')
         bigbutton3fv()
@@ -767,9 +767,9 @@ function verifyBlocks() {
 
         map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7948669.111898074!2d-46.456551842282416!3d-13.400801239048862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716037ca23ca5b3%3A0x7e926f5fb491ed05!2sBahia!5e0!3m2!1spt-BR!2sbr!4v1639062047218!5m2!1spt-BR!2sbr"
 
-        clima_desc2.innerText = "Blank"
+        clima_desc2.innerText = "O clima predominante no Estado da Bahia é o tropical, com médias de temperaturas anuais elevadas e máximas acima dos 30ºC. No sertão, o clima é semiárido, com pluviosidade anual acumulada abaixo dos 800 mm."
 
-        travel_desc2.innerText = "Blank"
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Bahia está em uma média de R$ 414 à R$ 566 (atualmente) dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton2f.classList.remove('hide')
         bigbutton2fv()
@@ -855,9 +855,9 @@ function verifyBlocks() {
 
         map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4027769.3781213453!2d-38.939266155554165!3d-9.649517704358482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x700fd232f520d9b%3A0x7e2d39e57f3df62d!2sAlagoas!5e0!3m2!1spt-BR!2sbr!4v1639065805289!5m2!1spt-BR!2sbr"
 
-        clima_desc2.innerText = "Blank"
+        clima_desc2.innerText = "O clima de Alagoas é o Tropical Atlântico, em virtude de sua posição entre os trópicos e próximo ao mar. Enquanto no Leste Alagoano, as chuvas são mais regulares, no Sertão Alagoano, o índice pluviométrico é baixo, tornando a região muito seca."
 
-        travel_desc2.innerText = "Blank"
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Alagoas é em média de R$ 707 dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton2f.classList.remove('hide')
         bigbutton2fv()
@@ -884,9 +884,9 @@ function verifyBlocks() {
 
         map3.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4067993.4674452688!2d-41.58267516023761!3d-5.317193530296392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bdb31827e686c5%3A0x3bb435e0af957842!2zQ2VhcsOh!5e0!3m2!1spt-BR!2sbr!4v1639067254706!5m2!1spt-BR!2sbr"
 
-        clima_desc3.innerText = "Blank"
+        clima_desc3.innerText = "O clima predominante no território cearense é o Tropical Quente Semiárido, abrangendo 9 das 184 sedes municipais. Esse tipo climático apresenta características como escassez e irregularidade pluviométrica associado a altas taxas de evapotranspiração."
 
-        travel_desc3.innerText = "Blank"
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Ceará é em média de R$ 661 dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton3f.classList.remove('hide')
         bigbutton3fv()
@@ -943,9 +943,9 @@ function verifyBlocks() {
 
         map2.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7948669.111898074!2d-46.456551842282416!3d-13.400801239048862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716037ca23ca5b3%3A0x7e926f5fb491ed05!2sBahia!5e0!3m2!1spt-BR!2sbr!4v1639062047218!5m2!1spt-BR!2sbr"
 
-        clima_desc2.innerText = "Blank"
+        clima_desc2.innerText = "O clima predominante no Estado da Bahia é o tropical, com médias de temperaturas anuais elevadas e máximas acima dos 30ºC. No sertão, o clima é semiárido, com pluviosidade anual acumulada abaixo dos 800 mm."
 
-        travel_desc2.innerText = "Blank"
+        travel_desc2.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Bahia está em uma média de R$ 414 à R$ 566 (atualmente) dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton2f.classList.remove('hide')
         bigbutton2fv()
@@ -1002,9 +1002,9 @@ function verifyBlocks() {
 
         map1.src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4067993.4674452688!2d-41.58267516023761!3d-5.317193530296392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bdb31827e686c5%3A0x3bb435e0af957842!2zQ2VhcsOh!5e0!3m2!1spt-BR!2sbr!4v1639067254706!5m2!1spt-BR!2sbr"
 
-        clima_desc1.innerText = "Blank"
+        clima_desc3.innerText = "O clima predominante no território cearense é o Tropical Quente Semiárido, abrangendo 9 das 184 sedes municipais. Esse tipo climático apresenta características como escassez e irregularidade pluviométrica associado a altas taxas de evapotranspiração."
 
-        travel_desc1.innerText = "Blank"
+        travel_desc3.innerText = "O preço de uma passagem de ida e volta partindo de São Paulo até Ceará é em média de R$ 661 dependendo da companhia aérea e outras variantes como horário ou paradas."
 
         bigbutton1f.classList.remove('hide')
         bigbutton1fv()
@@ -2129,7 +2129,7 @@ function setNextPicture() {
     if(currentQuestionIndex == 0) {
         image.src="https://o.quizlet.com/R83wCCnwxgQylxWG3-vYrg_b.png"
     } else if(currentQuestionIndex == 1) {
-        image.src="https://www.sketchappsources.com/resources/source-image/climate-icons-hosseinian.png"
+        image.src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3JlZGVmaW5lZm91cnNlYXNvbnMtMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ=="
     } else if(currentQuestionIndex == 2) {
         image.src="https://st8.cannypic.com/thumbs/40/408827_632_canny_pic.jpg"
     }

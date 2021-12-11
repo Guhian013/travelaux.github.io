@@ -34,7 +34,7 @@
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
-    padding: 22px 10px 23px 35px;
+    padding: 16px;
 }
 
 .footer {
@@ -44,8 +44,11 @@
 }
 
 .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center; 
-    padding-top: 25px; 
+    padding-top: 10px; 
     padding-bottom: 21px;
     font-family: 'Prata', serif;
 }
@@ -113,6 +116,7 @@
     font-size: 15px;
     font-weight: bold;
     margin-bottom: -3cm;
+    text-align: justify;
 }
 
 .lst-food li {
@@ -138,9 +142,8 @@
 #question {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
-    margin-top: 10px;
-    padding: 0 6cm;
     border-radius: 20px;
     background-color: rgb(204, 204, 204);
 }
@@ -210,7 +213,6 @@
     background-color: #eef4f7;
     border-radius: 5px;
     padding: 10px;
-    width: 63%;
     box-shadow: 0 0 3px 0.1px;
 }
 
@@ -222,7 +224,6 @@
     background-color: #eef4f7;
     border-radius: 5px;
     padding: 10px;
-    width: 66%;
     box-shadow: 0 0 4px 0.1px;
 }
 
@@ -307,13 +308,11 @@ body {
 
 hr { 
     display: flex;
-    margin-top: 2px;
-    margin-bottom: 0.5em;
+    margin: -10px 5cm 0 5cm;
+    border-style: inset;
     justify-content: center;
     align-items: center;
-    border-style: inset;
     border-width: 1px;
-    animation: linemation 2.5s ease;
 } 
 
 ul.navbar {
@@ -342,6 +341,10 @@ li {
 li a:hover{
 	transition: 0.4s;
     color: #35845d;
+}
+
+.footer {
+    margin-top: 1cm;
 }
   
 .footer ul {
@@ -402,12 +405,5 @@ li a:hover{
     margin-top: -1cm;
     color:rgb(0, 0, 0);
     opacity: 0.5;
-}
-  
-/* Credit to https://epicbootstrap.com/snippets/footer-basic */
-
-@keyframes linemation {
-    0% {width: 0%;}
-    100% {width: 100%;}
 }
 
